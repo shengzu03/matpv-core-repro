@@ -21,7 +21,13 @@
 
 ## 1. 下载代码并进入正确目录
 
-在GitHub点击Code → Download ZIP，解压到E盘，例如E:\MATPV_core。也可用Git下载。本页所有命令都在**同时含README.md、configs、matpv_repro的项目根目录**执行，不是在它的上一层运行。
+在[本仓库](https://github.com/shengzu03/matpv-core-repro)点击Code → Download ZIP，解压到E盘，例如E:\MATPV_core。若已安装Git，也可选择下面的下载方式（二选一）：
+
+~~~powershell
+git clone https://github.com/shengzu03/matpv-core-repro.git E:\MATPV_core
+~~~
+
+本页所有后续命令都在**同时含README.md、configs、matpv_repro的项目根目录**执行，不是在它的上一层运行。
 
 保留.gitattributes：该文件防止Windows Git自动转换换行。历史CSV与代码以原字节SHA256核验，转换换行会造成校验失败。
 
