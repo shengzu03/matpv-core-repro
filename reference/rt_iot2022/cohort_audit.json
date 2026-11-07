@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-02T05:12:03.466768+00:00",
+  "raw_rows": 123117,
+  "uniform_nonfinite_removals": 0,
+  "finite_raw_class_counts": [
+    12507,
+    94659,
+    37,
+    28,
+    2000,
+    1002,
+    2590,
+    2010,
+    534,
+    7750
+  ],
+  "cohort_rows": 14990,
+  "cohort_class_counts": [
+    11959,
+    57,
+    36,
+    5,
+    75,
+    44,
+    196,
+    80,
+    533,
+    2005
+  ],
+  "cohort_components": 14979,
+  "cross_label_input_groups": 10,
+  "same_input_same_class_deduplicated": true,
+  "same_input_different_labels_preserved_in_same_group": true,
+  "cohort_sha256": "baab518f1e5db804d471282fcb45830ec40c4c1e9a4b624f61b0e4b02e4c3236",
+  "outcomes_used_for_selection": false,
+  "full_corpus": false,
+  "natural_prevalence": false,
+  "selection": "Smallest 128-bit canonical model-input hashes per true class, then restore all labels in selected hash groups",
+  "caps_before_whole_group_restoration": {
+    "normal": 20000,
+    "each_attack": 2000
+  },
+  "independence_limit": "Exact-input groups only; source release does not permit verified session, device or time isolation",
+  "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+}

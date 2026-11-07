@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "checked_on": "2026-11-06",
+  "environment": {
+    "python": "3.12.10",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.0.6",
+      "threadpoolctl": "3.7.0"
+    },
+    "scope": "Current portable package environment, not claimed as historical environment."
+  },
+  "environment_scope": "Existing E-drive research environment; no clean-install or retraining claim",
+  "algorithm_function_ast_matches": 31,
+  "new_model_training": false,
+  "new_model_predictions": false,
+  "new_dataset_preparation": false,
+  "new_experiment_metrics": false,
+  "incomplete_evaluation_mock_test": "Passed with np.load blocked; no test labels opened",
+  "independent_reviews": "Frozen core/config audit and separate documentation/package scan completed",
+  "notes": [
+    "Tests are software packaging checks, not new research experiments.",
+    "No raw datasets or model weights included.",
+    "All original archives preserved."
+  ],
+  "software_check_count": 23,
+  "checks": [
+    {
+      "check": "All Python files compile in memory; no bytecode written",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro doctor",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro check-package",
+      "passed": true
+    },
+    {
+      "check": "tools/verify_core.py",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro init",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro status",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro verify-splits",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro check-data",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro init",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro status",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro verify-splits",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro check-data",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro init",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro status",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro verify-splits",
+      "passed": true
+    },
+    {
+      "check": "-m matpv_repro check-data",
+      "passed": true
+    },
+    {
+      "check": "Smoke directories contain no fitted models, predictions, prepared feature data or test oracles",
+      "passed": true
+    },
+    {
+      "check": "Both original fixed SVM_CONFIG assignment ASTs match",
+      "passed": true
+    },
+    {
+      "check": "TON model and preparation import context; estimator fit and prediction blocked",
+      "passed": true
+    },
+    {
+      "check": "RT model and preparation import context; estimator fit and prediction blocked",
+      "passed": true
+    },
+    {
+      "check": "CIC39 model and preparation import context; estimator fit and prediction blocked",
+      "passed": true
+    },
+    {
+      "check": "Incomplete evaluation refuses to load test labels; np.load blocked",
+      "passed": true
+    }
+  ]
+}

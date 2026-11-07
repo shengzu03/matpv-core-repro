@@ -1,0 +1,745 @@
+{
+  "utc": "2026-11-02T10:00:12.276031+00:00",
+  "benchmark": "rt_iot2022",
+  "status": "passed",
+  "classes": [
+    "normal",
+    "DOS_SYN_Hping",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "DDOS_Slowloris",
+    "ARP_poisioning"
+  ],
+  "guard_id": 8,
+  "focus_id": 9,
+  "checks": [
+    {
+      "seed": 2026110201,
+      "cohort_rows": 14990,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3508,
+          "components": 3501,
+          "class_counts": [
+            1517,
+            9,
+            6,
+            1,
+            12,
+            7,
+            33,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2998,
+          "components": 2995,
+          "class_counts": [
+            2392,
+            11,
+            7,
+            1,
+            15,
+            9,
+            39,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "roles_id_hash_group_disjoint": true,
+      "canonical_input_and_label_dedup_valid": true,
+      "encoded_input_group_equality_valid": true,
+      "seeded_role_assignment_valid": true,
+      "finite_features_and_source_only_geometry_valid": true,
+      "oracle_labels_read_for_integrity_only": true,
+      "experimental_metrics_computed": false,
+      "test_labels_not_in_feature_file": true,
+      "shared_training_sha256": "f29d1344c7e6b82af6824fd32d9d32e80e04d6b567839af9375c9edcc2cfdc91",
+      "completed_arm_artifacts": [
+        {
+          "arm": "tree70",
+          "prediction_sha256": "dc29e94742576ed3f72ae7b33650be32988e22a6d0a1ba5b91569bdc5c089054",
+          "model_sha256": "268e0c79ff079f2f6e2afe712d565af3e0490c28a4161a1161249ffa9cb26535",
+          "threshold": 0.14,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "matpv",
+          "prediction_sha256": "39f6b6d12183725166a4a9ad671accb4a240e5347ae0b2d25ae9ee35789d734d",
+          "model_sha256": "e8550fae04ee8a351e8e87df4d99411747660130711da44757ae51ea2a54de81",
+          "threshold": 0.17902400005172991,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_ce",
+          "prediction_sha256": "78241cc45541839743c78e0e0888d1d5e60b6f1dda5e1c2afbeaa47e5fb74715",
+          "model_sha256": "609316a3aeb2a064263aab7b3ecbe1ae13ea8f701dbed773e047c6e20c5be647",
+          "threshold": 0.03166133165359497,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_balanced",
+          "prediction_sha256": "fb27bf0146a14a4ab4c9f3a9def91e5bfb30b1377bb7afcd75212ef70987e8d0",
+          "model_sha256": "c07d89ce1db8612aa5889c009dd44aa3a14cfbcecdea6b98b6277d56a5d77c61",
+          "threshold": 0.5042786598205566,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_ce",
+          "prediction_sha256": "4f169e0fa971ba20949a8c8ac18f3750da1cdef8bd24acc939eacefc5ea2f5b4",
+          "model_sha256": "e48df17b8df41103693977b09a0a002f395e6e4cff5bcca0136b847ac53834a9",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_balanced",
+          "prediction_sha256": "561029599175ae9de46df03e1723122ef125560de7e5ce2de98e4278f80941e4",
+          "model_sha256": "e945016bdc0d8aa08e7c4871b6f3e069c699b62ce322fa5c54a67b83d23827aa",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabicl_v2",
+          "prediction_sha256": "821b3ce24804ca44677a8342171acfc6c74378dc5ffb0dbe2dcf60c0b4091f47",
+          "model_sha256": "79d10b4c91a4e5f4b7e48d39346af06f3be6ebcd1b0c014a119a8a2fbb98b203",
+          "threshold": 0.050119638442993164,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        }
+      ]
+    },
+    {
+      "seed": 2026110202,
+      "cohort_rows": 14990,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3511,
+          "components": 3501,
+          "class_counts": [
+            1518,
+            9,
+            6,
+            1,
+            12,
+            7,
+            34,
+            13,
+            307,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2995,
+          "components": 2995,
+          "class_counts": [
+            2391,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            106,
+            401
+          ]
+        }
+      },
+      "roles_id_hash_group_disjoint": true,
+      "canonical_input_and_label_dedup_valid": true,
+      "encoded_input_group_equality_valid": true,
+      "seeded_role_assignment_valid": true,
+      "finite_features_and_source_only_geometry_valid": true,
+      "oracle_labels_read_for_integrity_only": true,
+      "experimental_metrics_computed": false,
+      "test_labels_not_in_feature_file": true,
+      "shared_training_sha256": "a323472d2c3023b0c7c73883f59011fb98d76ec4efcbeac1288b093f520a483e",
+      "completed_arm_artifacts": [
+        {
+          "arm": "tree70",
+          "prediction_sha256": "05446fc98809a06f11a9d23c580e83b844836975310794700122b3a0c772a32b",
+          "model_sha256": "70836144cafb821c1408d27da785426b9dda43de720a2873e114b95662ece72a",
+          "threshold": 0.08999999999999997,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "matpv",
+          "prediction_sha256": "35faef6bb3e894ad775f2324122ab0b7466d514fca82b5b1dd1c2b3595148505",
+          "model_sha256": "5e3b5270bfe0401babb608cfb1cd08ab6ba06fcef897f9dadac4124a8a858360",
+          "threshold": 0.09705498658721268,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_ce",
+          "prediction_sha256": "fd273018db7d1155cb71eb65af1491ac493efcc68c8bfada93f7360bdc995dc2",
+          "model_sha256": "13f72a39451e257602583100e5a6c7f10aadd05c59acedcd7de0aff98224f4c9",
+          "threshold": 0.07215452194213867,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_balanced",
+          "prediction_sha256": "7a7f038a56bdb8a0d46f6afa84c0c3b80f8f663d1051579157fbdb5adead83be",
+          "model_sha256": "36cbd5e4ce57bcf27ceb0e2c22d58c01dad2576f67765f7feb29a1b1f196e374",
+          "threshold": 0.8393351435661316,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_ce",
+          "prediction_sha256": "e59c8d3c46b290cd60fb2bd340f4436c251224029ee012426ce1dd89db8ad665",
+          "model_sha256": "2e68b875430c8c5096286a216997e20f22240fa8ef1be4809fbf46d6ba64c72b",
+          "threshold": 0.024057507514953613,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_balanced",
+          "prediction_sha256": "958eed137923f417eb7192f67d66e72e3b79394ba11c3ed1121018a7051e110c",
+          "model_sha256": "fc1018142067d6164ea1e64263e16d83f1a9afbb248b64fbf0817ce1b279c807",
+          "threshold": 0.009173154830932617,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabicl_v2",
+          "prediction_sha256": "240629a09f57dfd3fc1d3029e205670c0079862447614333f1a21a8c617853dd",
+          "model_sha256": "82b125aa79f45679f1c2ec1b7f5fec6d32041da55fb5ff4bab307d48b9a19840",
+          "threshold": 0.041029512882232666,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        }
+      ]
+    },
+    {
+      "seed": 2026110203,
+      "cohort_rows": 14990,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3509,
+          "components": 3501,
+          "class_counts": [
+            1517,
+            9,
+            6,
+            1,
+            12,
+            7,
+            34,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2997,
+          "components": 2995,
+          "class_counts": [
+            2392,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "roles_id_hash_group_disjoint": true,
+      "canonical_input_and_label_dedup_valid": true,
+      "encoded_input_group_equality_valid": true,
+      "seeded_role_assignment_valid": true,
+      "finite_features_and_source_only_geometry_valid": true,
+      "oracle_labels_read_for_integrity_only": true,
+      "experimental_metrics_computed": false,
+      "test_labels_not_in_feature_file": true,
+      "shared_training_sha256": "e683aaf7ea4437c6b4c1fbd7fc02b4c7bbad5e84170860ddbedb10fed57f446f",
+      "completed_arm_artifacts": [
+        {
+          "arm": "tree70",
+          "prediction_sha256": "f4349f0acb4f8dec712bc7a53d4c9c7c6a7f86fda114eaf6c459727308c4b6b2",
+          "model_sha256": "9c5c60dbb77262981bc121b957160f76049fac0b5b3c040fd633855b2c849040",
+          "threshold": 0.12,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "matpv",
+          "prediction_sha256": "75a3cb61fce656c5148cddbde999338093ab7eaae23cd5acb03572883847caf7",
+          "model_sha256": "10ce22bd7e0c9f7158c59d4be2e609e4e74689a1eb41bcd6f4b81d96ffe904c3",
+          "threshold": 0.1254965952526932,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_ce",
+          "prediction_sha256": "8d97d6e8af2a230913d1ea1e7b3e564d0a61fabd282d2859faab9319cc244fda",
+          "model_sha256": "a1fc25853a94f4b00cedd04296583e9f62ae7e5215d29feb33f6eca4f39c823f",
+          "threshold": 0.017156243324279785,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_balanced",
+          "prediction_sha256": "64d3bf4d68ed554445d04a1c907388378a3cd28f47a854a3a8ccbe5fb89a1aa9",
+          "model_sha256": "4f1340ad333ebdda0f6d6ab2a995077e33599300c9ddf3ba3583590a0b0f0920",
+          "threshold": 0.7088614702224731,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_ce",
+          "prediction_sha256": "579449688ef227fab309dddd6fd90844c61b268e4590f4255b5f8c0b59f88d7e",
+          "model_sha256": "7f95429120a944506a47c3c6420024f04a2abe413f01fc1b8651af96f55bd9e0",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_balanced",
+          "prediction_sha256": "7e3fbcbf18b92840517a03a4d144797535c068fb2d91e0588c4264e6eb96ab60",
+          "model_sha256": "c141f8da427245b99733fef81e81e2c19cf09c5c322984e2d600d7c94f660553",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabicl_v2",
+          "prediction_sha256": "9838b93fec023d0514cb6b71cbbb09452b3afc2e2bb38444a9502e1cb2ace3ef",
+          "model_sha256": "e9f7def69bc6634c0b02e8417d2088e893a6f193018de5f8cc29fb837178d397",
+          "threshold": 0.059719741344451904,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        }
+      ]
+    },
+    {
+      "seed": 2026110204,
+      "cohort_rows": 14990,
+      "roles": {
+        "source": {
+          "rows": 6383,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            123,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3506,
+          "components": 3501,
+          "class_counts": [
+            1516,
+            9,
+            6,
+            1,
+            12,
+            7,
+            32,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 3001,
+          "components": 2995,
+          "class_counts": [
+            2393,
+            11,
+            7,
+            1,
+            15,
+            9,
+            41,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "roles_id_hash_group_disjoint": true,
+      "canonical_input_and_label_dedup_valid": true,
+      "encoded_input_group_equality_valid": true,
+      "seeded_role_assignment_valid": true,
+      "finite_features_and_source_only_geometry_valid": true,
+      "oracle_labels_read_for_integrity_only": true,
+      "experimental_metrics_computed": false,
+      "test_labels_not_in_feature_file": true,
+      "shared_training_sha256": "4b97ce2a29cfd58bba6bc088eae97000140d3e3a3ed888b89d968e44f4d67b24",
+      "completed_arm_artifacts": [
+        {
+          "arm": "tree70",
+          "prediction_sha256": "da025ff00b616bbde418b8ad16cd990a604d2ed22a1162356e9ca7ae03d53367",
+          "model_sha256": "0cc9180b69a6384acdfa9117b86c83b5bd08a20aaaaeccd6046b70ec6277af7a",
+          "threshold": 0.15000000000000002,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "matpv",
+          "prediction_sha256": "9da750c513e73684ef54276cc52a6bb4a1f181ce52d11dc5790d1b6370745099",
+          "model_sha256": "48359f60beb134601ea241e0460c95b2defdd1217af98b1d6ff4806d20c90ecd",
+          "threshold": 0.14143188798828,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_ce",
+          "prediction_sha256": "3694b3b9fa9ba782eeb64f7d75a93a29319899dab8ed4821f787817d6a76afa7",
+          "model_sha256": "d69af46ab52d3f3937fd7baa06169ea4d6e1021f619fcf22f1ac503443acca24",
+          "threshold": 0.09478646516799927,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_balanced",
+          "prediction_sha256": "d5b42672fc55a0875bf4c640e5084d322b166f95b5efe5c89d6c8de187a3e136",
+          "model_sha256": "bae5fc5b5c196e44f696ba75b4ce8872529cbde63cd2bc30cdb491cf0b6f96d6",
+          "threshold": 0.9070834517478943,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_ce",
+          "prediction_sha256": "3e0a3a2d89a34ef9f63cb399c2f86bafb1627ee7fddc1cb064ae4d20b6a10e7b",
+          "model_sha256": "d7cca51676660cff68b8af63ef87ca9721045457f4c4799cb5b1b5f1b164872d",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_balanced",
+          "prediction_sha256": "a57100b08fadcc231a1f2d85093487894db919645d5ab324955fcb4e2fa085c8",
+          "model_sha256": "4a4bfe9c4b2c5b8534312c8dd2f1f315e31c293f7a58012f230b1c7eaa4ef04e",
+          "threshold": 1.7285346984863281e-06,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabicl_v2",
+          "prediction_sha256": "d180cc36c29ee787312afdef5cc9d1808c7645cafc2ec3e72f9bbd7f309d29f6",
+          "model_sha256": "fb57d4f736c4c17d612342ac5dcec903bc8d9bced9d2b49b7e50dc5bde3ecedf",
+          "threshold": 0.03855413198471069,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        }
+      ]
+    },
+    {
+      "seed": 2026110205,
+      "cohort_rows": 14990,
+      "roles": {
+        "source": {
+          "rows": 6385,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            125,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3507,
+          "components": 3501,
+          "class_counts": [
+            1516,
+            9,
+            6,
+            1,
+            12,
+            7,
+            33,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2998,
+          "components": 2995,
+          "class_counts": [
+            2393,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "roles_id_hash_group_disjoint": true,
+      "canonical_input_and_label_dedup_valid": true,
+      "encoded_input_group_equality_valid": true,
+      "seeded_role_assignment_valid": true,
+      "finite_features_and_source_only_geometry_valid": true,
+      "oracle_labels_read_for_integrity_only": true,
+      "experimental_metrics_computed": false,
+      "test_labels_not_in_feature_file": true,
+      "shared_training_sha256": "b48ce6dd6f216d75b61b50111bb7696c71343d43471fb9a9369252bee1c8926e",
+      "completed_arm_artifacts": [
+        {
+          "arm": "tree70",
+          "prediction_sha256": "c555cee62231e783e18e16cabc5bbd51f92b40f969c2ddc3c6080edbeb199339",
+          "model_sha256": "525bc29abb91e86b5e0623fa47643f4e58bf96ecd7637cb0f69c73df64e9273c",
+          "threshold": 0.14,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "matpv",
+          "prediction_sha256": "e0335dd7fda9411c3cb8c13c83a26bbbd3a2f84c2a5fff509c75494de7c34247",
+          "model_sha256": "47b192c0994bb8f924a60badac4e5e01e3ebe0afb5e545a8bd8d492e20624cfb",
+          "threshold": 0.17266374020265485,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_ce",
+          "prediction_sha256": "6319171e3a494dd220d43bd1e8b497b2f7c1a24d5f8cfd030df818471d0521ef",
+          "model_sha256": "fcd1b5c6116900576bb7461a9fffbb3b9b0ef832caa736f0aa01d2513b545450",
+          "threshold": 0.04552096128463745,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabm_balanced",
+          "prediction_sha256": "a7435adef0f541e5c05843875743029bb1083cc71a8d7a665de8bb34f7c5dcb4",
+          "model_sha256": "6c08425b9b9043ee2fbe81be5cfa11a68d605c1101b18eab6356d867f2bc1741",
+          "threshold": 0.9466397762298584,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_ce",
+          "prediction_sha256": "0ef15af011aed71fe9653023f69b51303bc8f3d4e046ff982b81e27d26d98139",
+          "model_sha256": "c76bfc69ce7c92388d4e6d1cabefbf548119c0e5b4e238d209fa4095e0303182",
+          "threshold": 9.5367431640625e-07,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "modernnca_balanced",
+          "prediction_sha256": "4ebfafff65f06926710835f93a89cf10139fa77963c8215b8312feca8d306fd1",
+          "model_sha256": "5a1a9e358d141113aadde3b25e8056311e8da67296512a3afbb47aab0130caea",
+          "threshold": 0.00011545419692993164,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        },
+        {
+          "arm": "tabicl_v2",
+          "prediction_sha256": "5cd2e6cf7d59db5fc8d1eb319efe4346dfa912f12555abeae7454edb9f2d55a0",
+          "model_sha256": "7d1985f9e1d29bc1f87ef7ae639f5ce44d885dee71be689531d2e7b355774977",
+          "threshold": 0.053244590759277344,
+          "strict_alarm_mask_valid": true,
+          "calibration_only_threshold_valid": true,
+          "shared_training_valid": true
+        }
+      ]
+    }
+  ],
+  "synthetic_metric_check": true,
+  "experimental_metrics_computed": false,
+  "oracle_labels_read_for_integrity_only": true,
+  "cohort_sha256": "baab518f1e5db804d471282fcb45830ec40c4c1e9a4b624f61b0e4b02e4c3236"
+}

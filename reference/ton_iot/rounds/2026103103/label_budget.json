@@ -1,0 +1,44 @@
+{
+  "source": 49819,
+  "target": 70,
+  "calibration_normal": 2000,
+  "historical_xss_validation": 100,
+  "source_plus_reviews_counts": [
+    13286,
+    1902,
+    7492,
+    2143,
+    12567,
+    9614,
+    3,
+    2829,
+    52,
+    1
+  ],
+  "query50_counts": [
+    11,
+    0,
+    4,
+    5,
+    6,
+    5,
+    1,
+    0,
+    17,
+    1
+  ],
+  "query20_counts": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    0
+  ],
+  "training_sha256": "79707c3073d70e2252992c7ef84093e1506867e13657d963f97d0c5cba04a36a",
+  "test_labels_used": false
+}

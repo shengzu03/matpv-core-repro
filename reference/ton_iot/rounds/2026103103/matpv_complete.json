@@ -1,0 +1,147 @@
+{
+  "utc": "2026-10-31T02:33:49.262645+00:00",
+  "times": {
+    "source_teacher_and_query50_seconds": 21.813000000009197,
+    "oof_and_tree50_seconds": 146.06299999999464,
+    "graph_seconds": 3.375,
+    "graph_nodes": 24538,
+    "graph_edges": 302756,
+    "fold": [
+      2,
+      3,
+      4,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      0,
+      1,
+      1,
+      2,
+      2,
+      4,
+      0,
+      0,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      3,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      3,
+      1,
+      4,
+      4,
+      3,
+      1,
+      1,
+      4,
+      0,
+      1,
+      4,
+      4,
+      1,
+      3,
+      0,
+      2,
+      0,
+      2,
+      4
+    ],
+    "query20_seconds": 0.5929999999934807,
+    "memory_and_svm_heads_seconds": 0.5939999999973224
+  },
+  "inference_seconds": 2.7339999999967404,
+  "inference_ms_per_row": 0.16073843259431714,
+  "model_bytes": 162859737,
+  "model_sha256": "b4b6d08a135921f7c0eeb2ac91bbb657aad5a293b0a99c8748bf46e602822ab7",
+  "prediction_sha256": "d5115e74dc2b33343e4926fe045d4f1bc214e30c81e46d62c80f81a4408ae22a",
+  "unsupported_gaussian": false,
+  "unsupported_svm": false,
+  "pair_audits": {
+    "1": {
+      "rows": 1903,
+      "n_iter": [
+        30
+      ],
+      "support": [
+        15,
+        1
+      ]
+    },
+    "2": {
+      "rows": 7493,
+      "n_iter": [
+        29
+      ],
+      "support": [
+        18,
+        1
+      ]
+    },
+    "3": {
+      "rows": 2144,
+      "n_iter": [
+        34
+      ],
+      "support": [
+        29,
+        1
+      ]
+    },
+    "4": {
+      "rows": 12568,
+      "n_iter": [
+        35
+      ],
+      "support": [
+        22,
+        1
+      ]
+    },
+    "5": {
+      "rows": 9615,
+      "n_iter": [
+        33
+      ],
+      "support": [
+        28,
+        1
+      ]
+    },
+    "6": {
+      "rows": 4,
+      "n_iter": [
+        9
+      ],
+      "support": [
+        3,
+        1
+      ]
+    },
+    "7": {
+      "rows": 2830,
+      "n_iter": [
+        43
+      ],
+      "support": [
+        35,
+        1
+      ]
+    }
+  },
+  "threshold": 0.1233333333333333,
+  "eta": 6.180511855588213,
+  "svm_threshold": 0.0,
+  "source_review_rows": 49889
+}

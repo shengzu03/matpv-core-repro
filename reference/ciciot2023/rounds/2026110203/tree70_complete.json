@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-02T12:47:19.003854+00:00",
+  "fit_seconds": 44.20299999999952,
+  "inference_seconds": 1.360000000000582,
+  "inference_ms_per_row": 0.0793373001983772,
+  "model_bytes": 2238942256,
+  "model_sha256": "67eb8fd090ad1631a8e6a43c1032fe0259e786e7912f75506ccede8a622a2090",
+  "training_sha256": "416cac586ba691c436adbb233b247c4eb959123ef399e5612aaf107395dde402",
+  "prediction_sha256": "fc9bd30a84e32cc8b9ad2e0849a025e2d1010b18c9d214903660b6f3778a9745",
+  "threshold": 0.95
+}

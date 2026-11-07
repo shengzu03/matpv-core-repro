@@ -1,0 +1,465 @@
+{
+  "utc": "2026-10-31T02:10:58.237627+00:00",
+  "source_integrity": {
+    "original_dataset": "UNSW TON_IoT network",
+    "original_source_page": "https://research.unsw.edu.au/projects/toniot-datasets",
+    "retrieval": "third_party_Zenodo_research_mirror",
+    "zenodo_record": 21997233,
+    "zenodo_file_name": "TON_IoT Train_Test_Network.csv",
+    "published_checksum": "md5:e9c9e8a9c8595dcf85ae88fa12b838c2",
+    "verified_md5": "e9c9e8a9c8595dcf85ae88fa12b838c2",
+    "sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974",
+    "bytes": 29902775,
+    "canonical_UNSW_file_equality_not_independently_verified": true,
+    "model_outcomes_scored": false
+  },
+  "seeds": {
+    "2026103101": {
+      "seed": 2026103101,
+      "total_clean_records": 93466,
+      "total_components": 71387,
+      "roles": {
+        "source": {
+          "rows": 53032,
+          "components": 38659,
+          "class_counts": [
+            13156,
+            1908,
+            7443,
+            5563,
+            12493,
+            9564,
+            2,
+            2883,
+            20,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 1529,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "pool": {
+          "rows": 19342,
+          "components": 16921,
+          "class_counts": [
+            3739,
+            17,
+            1987,
+            371,
+            3227,
+            2468,
+            0,
+            708,
+            6007,
+            818
+          ],
+          "new_normal_rows": 824
+        },
+        "test": {
+          "rows": 18992,
+          "components": 14278,
+          "class_counts": [
+            4703,
+            41,
+            2405,
+            513,
+            4129,
+            3216,
+            258,
+            902,
+            2612,
+            213
+          ],
+          "new_normal_rows": 193
+        }
+      },
+      "all_rows_assigned": true,
+      "scarce_source_label_caps": {
+        "xss": 20,
+        "ransomware": 20
+      },
+      "unfilled_scarce_cap_due_to_whole_components": [
+        18,
+        0
+      ],
+      "fullscale_not_fresh": true,
+      "canonical_source_equality_verified": false,
+      "feature_count": 39,
+      "features_sha256": "13967f3c1f57236f0e18c786900867c3128315f5d9919b07aac65d4cd4012b71",
+      "oracle_sha256": "0f5f069ff0b6f2d176f54c4f4ca180831a628a2327364d230651b1a4fe13b518"
+    },
+    "2026103102": {
+      "seed": 2026103102,
+      "total_clean_records": 93466,
+      "total_components": 71387,
+      "roles": {
+        "source": {
+          "rows": 51324,
+          "components": 38684,
+          "class_counts": [
+            11204,
+            1903,
+            7480,
+            5581,
+            12625,
+            9658,
+            2,
+            2851,
+            20,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 1511,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "pool": {
+          "rows": 21454,
+          "components": 16914,
+          "class_counts": [
+            4253,
+            34,
+            2011,
+            406,
+            3287,
+            2548,
+            257,
+            746,
+            7087,
+            825
+          ],
+          "new_normal_rows": 806
+        },
+        "test": {
+          "rows": 18588,
+          "components": 14278,
+          "class_counts": [
+            6141,
+            29,
+            2344,
+            460,
+            3937,
+            3042,
+            1,
+            896,
+            1532,
+            206
+          ],
+          "new_normal_rows": 211
+        }
+      },
+      "all_rows_assigned": true,
+      "scarce_source_label_caps": {
+        "xss": 20,
+        "ransomware": 20
+      },
+      "unfilled_scarce_cap_due_to_whole_components": [
+        18,
+        0
+      ],
+      "fullscale_not_fresh": true,
+      "canonical_source_equality_verified": false,
+      "feature_count": 39,
+      "features_sha256": "46652c8c58ba459d83393ccf2c3545220509544c70497a2c7a64901f30f198ee",
+      "oracle_sha256": "a147b11bf9c4811c7f4b29514e1fbb571fd9ddba1074fcd5ea69381a81e4af9a"
+    },
+    "2026103103": {
+      "seed": 2026103103,
+      "total_clean_records": 93466,
+      "total_components": 71387,
+      "roles": {
+        "source": {
+          "rows": 49819,
+          "components": 38740,
+          "class_counts": [
+            13270,
+            1902,
+            7488,
+            2138,
+            12561,
+            9609,
+            2,
+            2829,
+            20,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 1443,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "pool": {
+          "rows": 24538,
+          "components": 16926,
+          "class_counts": [
+            3709,
+            36,
+            1996,
+            3834,
+            3376,
+            2635,
+            257,
+            767,
+            7099,
+            829
+          ],
+          "new_normal_rows": 818
+        },
+        "test": {
+          "rows": 17009,
+          "components": 14278,
+          "class_counts": [
+            4619,
+            28,
+            2351,
+            475,
+            3912,
+            3004,
+            1,
+            897,
+            1520,
+            202
+          ],
+          "new_normal_rows": 199
+        }
+      },
+      "all_rows_assigned": true,
+      "scarce_source_label_caps": {
+        "xss": 20,
+        "ransomware": 20
+      },
+      "unfilled_scarce_cap_due_to_whole_components": [
+        18,
+        0
+      ],
+      "fullscale_not_fresh": true,
+      "canonical_source_equality_verified": false,
+      "feature_count": 39,
+      "features_sha256": "1c41258f7489fbb18a1897df124985231b26613f880c0b5e9bd91a0d4921cf3a",
+      "oracle_sha256": "f76c1485f7215433914d9d3aa5a4de84c51996e043fa071b039b2f456c47a3e3"
+    },
+    "2026103104": {
+      "seed": 2026103104,
+      "total_clean_records": 93466,
+      "total_components": 71387,
+      "roles": {
+        "source": {
+          "rows": 52943,
+          "components": 38688,
+          "class_counts": [
+            12966,
+            1898,
+            7443,
+            5575,
+            12602,
+            9569,
+            2,
+            2868,
+            20,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 1504,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "pool": {
+          "rows": 21446,
+          "components": 16917,
+          "class_counts": [
+            4152,
+            40,
+            2024,
+            386,
+            3309,
+            2632,
+            257,
+            729,
+            7085,
+            832
+          ],
+          "new_normal_rows": 807
+        },
+        "test": {
+          "rows": 16977,
+          "components": 14278,
+          "class_counts": [
+            4480,
+            28,
+            2368,
+            486,
+            3938,
+            3047,
+            1,
+            896,
+            1534,
+            199
+          ],
+          "new_normal_rows": 210
+        }
+      },
+      "all_rows_assigned": true,
+      "scarce_source_label_caps": {
+        "xss": 20,
+        "ransomware": 20
+      },
+      "unfilled_scarce_cap_due_to_whole_components": [
+        18,
+        0
+      ],
+      "fullscale_not_fresh": true,
+      "canonical_source_equality_verified": false,
+      "feature_count": 39,
+      "features_sha256": "93f088162cea476e844fddee5c545a42baa756b3a585de3df2af49a6935084b1",
+      "oracle_sha256": "58ace1f97b8bb18a8922417a9d94f0bd587372b2731ff89a0cfdd8685aa21c95"
+    },
+    "2026103105": {
+      "seed": 2026103105,
+      "total_clean_records": 93466,
+      "total_components": 71387,
+      "roles": {
+        "source": {
+          "rows": 50756,
+          "components": 38867,
+          "class_counts": [
+            13169,
+            94,
+            7454,
+            4964,
+            12600,
+            9616,
+            2,
+            2837,
+            20,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 1302,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ],
+          "new_normal_rows": 0
+        },
+        "pool": {
+          "rows": 24079,
+          "components": 16940,
+          "class_counts": [
+            4348,
+            1844,
+            2042,
+            981,
+            3307,
+            2614,
+            257,
+            760,
+            7098,
+            828
+          ],
+          "new_normal_rows": 790
+        },
+        "test": {
+          "rows": 16531,
+          "components": 14278,
+          "class_counts": [
+            4081,
+            28,
+            2339,
+            502,
+            3942,
+            3018,
+            1,
+            896,
+            1521,
+            203
+          ],
+          "new_normal_rows": 227
+        }
+      },
+      "all_rows_assigned": true,
+      "scarce_source_label_caps": {
+        "xss": 20,
+        "ransomware": 20
+      },
+      "unfilled_scarce_cap_due_to_whole_components": [
+        18,
+        0
+      ],
+      "fullscale_not_fresh": true,
+      "canonical_source_equality_verified": false,
+      "feature_count": 39,
+      "features_sha256": "a1932b4fecade8bd46f4add23e6d176f8e816e066ebfdbf2817e683c01b3f45b",
+      "oracle_sha256": "0d58942bd22245b23bcd9a214bd8ecb35a8cb7341134d20a042ff27aeb7861e1"
+    }
+  },
+  "unseen_data_claim": false,
+  "rows_removed_for_favorable_outcomes": 0
+}

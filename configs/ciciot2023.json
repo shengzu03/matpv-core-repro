@@ -1,0 +1,342 @@
+{
+  "benchmark": "ciciot2023",
+  "classes": [
+    "normal",
+    "Backdoor_Malware",
+    "BrowserHijacking",
+    "CommandInjection",
+    "DDoS-ACK_Fragmentation",
+    "DDoS-HTTP_Flood",
+    "DDoS-ICMP_Flood",
+    "DDoS-ICMP_Fragmentation",
+    "DDoS-PSHACK_FLOOD",
+    "DDoS-RSTFINFLOOD",
+    "DDoS-SYN_Flood",
+    "DDoS-SlowLoris",
+    "DDoS-SynonymousIP_Flood",
+    "DDoS-TCP_Flood",
+    "DDoS-UDP_Flood",
+    "DDoS-UDP_Fragmentation",
+    "DNS_Spoofing",
+    "DictionaryBruteForce",
+    "DoS-HTTP_Flood",
+    "DoS-SYN_Flood",
+    "DoS-TCP_Flood",
+    "DoS-UDP_Flood",
+    "Mirai-greeth_flood",
+    "Mirai-greip_flood",
+    "Mirai-udpplain",
+    "Recon-HostDiscovery",
+    "Recon-OSScan",
+    "Recon-PingSweep",
+    "Recon-PortScan",
+    "SqlInjection",
+    "Uploading_Attack",
+    "VulnerabilityScan",
+    "XSS",
+    "MITM-ArpSpoofing"
+  ],
+  "guard_id": 32,
+  "focus_id": 33,
+  "class_names_cn": [
+    "正常业务",
+    "Backdoor_Malware",
+    "BrowserHijacking",
+    "CommandInjection",
+    "DDoS-ACK_Fragmentation",
+    "DDoS-HTTP_Flood",
+    "DDoS-ICMP_Flood",
+    "DDoS-ICMP_Fragmentation",
+    "DDoS-PSHACK_FLOOD",
+    "DDoS-RSTFINFLOOD",
+    "DDoS-SYN_Flood",
+    "DDoS-SlowLoris",
+    "DDoS-SynonymousIP_Flood",
+    "DDoS-TCP_Flood",
+    "DDoS-UDP_Flood",
+    "DDoS-UDP_Fragmentation",
+    "DNS_Spoofing",
+    "DictionaryBruteForce",
+    "DoS-HTTP_Flood",
+    "DoS-SYN_Flood",
+    "DoS-TCP_Flood",
+    "DoS-UDP_Flood",
+    "Mirai-greeth_flood",
+    "Mirai-greip_flood",
+    "Mirai-udpplain",
+    "Recon-HostDiscovery",
+    "Recon-OSScan",
+    "Recon-PingSweep",
+    "Recon-PortScan",
+    "SqlInjection",
+    "Uploading_Attack",
+    "VulnerabilityScan",
+    "跨站脚本攻击",
+    "中间人ARP欺骗攻击"
+  ],
+  "source_files": [
+    {
+      "label": "Backdoor_Malware",
+      "sha256": "b076424c816ecf99f40d466f95a8ea4336c5077d4afdc05220fa26d528f4a06f",
+      "relative_path": "Backdoor_Malware/Backdoor_Malware.pcap.csv"
+    },
+    {
+      "label": "BenignTraffic",
+      "sha256": "f0ee40b64ac395ecf3ce7cff7580343718554985a68ec6f07d7276d8f31b9ee6",
+      "relative_path": "Benign_Final/BenignTraffic.pcap.csv"
+    },
+    {
+      "label": "BrowserHijacking",
+      "sha256": "cb8ae8b62bfbb9594ca54a042d80ebfa194526279c1e7c60b3fc9d587264e40b",
+      "relative_path": "BrowserHijacking/BrowserHijacking.pcap.csv"
+    },
+    {
+      "label": "CommandInjection",
+      "sha256": "8d2cacd92968707719bdc67fea854558e45f083fb315df6c52b637db18fd4aeb",
+      "relative_path": "CommandInjection/CommandInjection.pcap.csv"
+    },
+    {
+      "label": "DDoS-ACK_Fragmentation",
+      "sha256": "60ade5c90233e02d09012cef3a84a8da69d9e8d5cf4f544e4a09c8ba0647cecc",
+      "relative_path": "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation.pcap.csv"
+    },
+    {
+      "label": "DDoS-HTTP_Flood",
+      "sha256": "124ac9cae65694761d755e9709d87f7375d8b85b8ee073860f050eebdab515ee",
+      "relative_path": "DDoS-HTTP_Flood/DDoS-HTTP_Flood-.pcap.csv"
+    },
+    {
+      "label": "DDoS-ICMP_Flood",
+      "sha256": "641a73fa306b129b6b5f5669b84e737bea15243bb3996c37d56248698a4d4cf4",
+      "relative_path": "DDoS-ICMP_Flood/DDoS-ICMP_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-ICMP_Fragmentation",
+      "sha256": "d84d3608cdeae2ad8789e197ade49a199a9f86a9b32fbbfb1b41432fba27bc7c",
+      "relative_path": "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation.pcap.csv"
+    },
+    {
+      "label": "DDoS-PSHACK_FLOOD",
+      "sha256": "a4b40c47d42956ccb58d4fd1c59845cdd2a947a88b634770dff10d1d8d970b7f",
+      "relative_path": "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-RSTFINFLOOD",
+      "sha256": "760a2d50d3f2ac2e11e8aed6199d69fa2b58e4d5f67852a516131fb3d6bcf0b3",
+      "relative_path": "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood.pcap.csv"
+    },
+    {
+      "label": "DDoS-SYN_Flood",
+      "sha256": "d91942c579cc1a7632ee2d64ae87bab44bfb4eca02467f612763d7a40f3b9ff3",
+      "relative_path": "DDoS-SYN_Flood/DDoS-SYN_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-SlowLoris",
+      "sha256": "398edc828cca5d70fb9d8bf6aa1e891fcc88921ff622443100d8059456ce3645",
+      "relative_path": "DDoS-SlowLoris/DDoS-SlowLoris.pcap.csv"
+    },
+    {
+      "label": "DDoS-SynonymousIP_Flood",
+      "sha256": "93eed7f3c4c0d2210387ea0a847b271d5d96de51e717da0b6c22b8199a66c402",
+      "relative_path": "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-TCP_Flood",
+      "sha256": "b3568dbcfb412e05fc9ff635a3983d7b7901c922ad0894bb3d25d4b6c012ea45",
+      "relative_path": "DDoS-TCP_Flood/DDoS-TCP_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-UDP_Flood",
+      "sha256": "792f50c66708aed502d55eb5cc070567ee8d354c2728ab9922aa2c7ff53cabd3",
+      "relative_path": "DDoS-UDP_Flood/DDoS-UDP_Flood.pcap.csv"
+    },
+    {
+      "label": "DDoS-UDP_Fragmentation",
+      "sha256": "bc4347c4746e3f6b980e124e529629de23f5eb0be8939b521fadaf0ef34dbb80",
+      "relative_path": "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation.pcap.csv"
+    },
+    {
+      "label": "DNS_Spoofing",
+      "sha256": "8658a5914d9fe79754c67547657950db1fc31e8677719b1449726072d3281cc0",
+      "relative_path": "DNS_Spoofing/DNS_Spoofing.pcap.csv"
+    },
+    {
+      "label": "DictionaryBruteForce",
+      "sha256": "1e632abf212e3fc4c552a60d941a4d89e1db081e10152b857f719bfe38012ab2",
+      "relative_path": "DictionaryBruteForce/DictionaryBruteForce.pcap.csv"
+    },
+    {
+      "label": "DoS-HTTP_Flood",
+      "sha256": "03a482b3045d47ffdc644b7debe843dd96ed8c8fd7af67fbf7a5debef38d86fd",
+      "relative_path": "DoS-HTTP_Flood/DoS-HTTP_Flood.pcap.csv"
+    },
+    {
+      "label": "DoS-SYN_Flood",
+      "sha256": "0ed60033461a559118213251624749cbc3155f6edb0177e63e7755bd08558f76",
+      "relative_path": "DoS-SYN_Flood/DoS-SYN_Flood.pcap.csv"
+    },
+    {
+      "label": "DoS-TCP_Flood",
+      "sha256": "507c85bcec74b34cfaebeaec2beb60380612a815b0cfd7a2d0e5989550cb863a",
+      "relative_path": "DoS-TCP_Flood/DoS-TCP_Flood.pcap.csv"
+    },
+    {
+      "label": "DoS-UDP_Flood",
+      "sha256": "745639a035a53c31c13886fd31dc02f56ae2fad5ee971f5b04e66674e9421857",
+      "relative_path": "DoS-UDP_Flood/DoS-UDP_Flood.pcap.csv"
+    },
+    {
+      "label": "MITM-ArpSpoofing",
+      "sha256": "2637276fe7afe49833082c0a7342ca107bc4c190141ce383b7322e2f3fc37894",
+      "relative_path": "MITM-ArpSpoofing/MITM-ArpSpoofing.pcap.csv"
+    },
+    {
+      "label": "Mirai-greeth_flood",
+      "sha256": "d8b068a4f2002bdf438423cf950ac84bdb643836872d6f1a4046bfc3dde42eb6",
+      "relative_path": "Mirai-greeth_flood/Mirai-greeth_flood.pcap.csv"
+    },
+    {
+      "label": "Mirai-greip_flood",
+      "sha256": "cac28e335a6dd277d274841313216c4f3bf6a57b34671c4d47f11507c4dd73af",
+      "relative_path": "Mirai-greip_flood/Mirai-greip_flood.pcap.csv"
+    },
+    {
+      "label": "Mirai-udpplain",
+      "sha256": "f423e8c2558b453b1e1f8e5aeb1a8479c61be78ecc7cc32a767f0e833fde1676",
+      "relative_path": "Mirai-udpplain/Mirai-udpplain.pcap.csv"
+    },
+    {
+      "label": "Recon-HostDiscovery",
+      "sha256": "50f8cc3832dcc171b05472b5f768485817796cb7c9bcffdc4747d95b06359990",
+      "relative_path": "Recon-HostDiscovery/Recon-HostDiscovery.pcap.csv"
+    },
+    {
+      "label": "Recon-OSScan",
+      "sha256": "830b0bf24e542cfff04db1c42338df9bcc3b862f0fcdda8ea192f4fbb064c37c",
+      "relative_path": "Recon-OSScan/Recon-OSScan.pcap.csv"
+    },
+    {
+      "label": "Recon-PingSweep",
+      "sha256": "e786539fdf48b954d76128facd82f064e82b9d11855fabee56ead7b8ae827f81",
+      "relative_path": "Recon-PingSweep/Recon-PingSweep.pcap.csv"
+    },
+    {
+      "label": "Recon-PortScan",
+      "sha256": "7416087ada9515c67b17a59a7e386008b1710b9d2ea4d450e4b4cffafb13cf53",
+      "relative_path": "Recon-PortScan/Recon-PortScan.pcap.csv"
+    },
+    {
+      "label": "SqlInjection",
+      "sha256": "c0b3231d7650203b6808281b2cce5cd445ead8d6e232d6811c0e7a82736f2850",
+      "relative_path": "SqlInjection/SqlInjection.pcap.csv"
+    },
+    {
+      "label": "Uploading_Attack",
+      "sha256": "ea5334870cfe3c8aef246fad916fb7988508520e8510d47e6c0f7c8ed78e4f41",
+      "relative_path": "Uploading_Attack/Uploading_Attack.pcap.csv"
+    },
+    {
+      "label": "VulnerabilityScan",
+      "sha256": "1991dc6c1d0989101639cf537c4e335a0af6c13af64c6efcc6a4b8845b791f5a",
+      "relative_path": "VulnerabilityScan/VulnerabilityScan.pcap.csv"
+    },
+    {
+      "label": "XSS",
+      "sha256": "696a998255347b2cdb595e2d539ebd5b5ceb2701fe03721cdbb3f4f360450dcb",
+      "relative_path": "XSS/XSS.pcap.csv"
+    }
+  ],
+  "label_column": null,
+  "label_mapping": {
+    "Backdoor_Malware": 1,
+    "BenignTraffic": 0,
+    "BrowserHijacking": 2,
+    "CommandInjection": 3,
+    "DDoS-ACK_Fragmentation": 4,
+    "DDoS-HTTP_Flood": 5,
+    "DDoS-ICMP_Flood": 6,
+    "DDoS-ICMP_Fragmentation": 7,
+    "DDoS-PSHACK_FLOOD": 8,
+    "DDoS-RSTFINFLOOD": 9,
+    "DDoS-SYN_Flood": 10,
+    "DDoS-SlowLoris": 11,
+    "DDoS-SynonymousIP_Flood": 12,
+    "DDoS-TCP_Flood": 13,
+    "DDoS-UDP_Flood": 14,
+    "DDoS-UDP_Fragmentation": 15,
+    "DNS_Spoofing": 16,
+    "DictionaryBruteForce": 17,
+    "DoS-HTTP_Flood": 18,
+    "DoS-SYN_Flood": 19,
+    "DoS-TCP_Flood": 20,
+    "DoS-UDP_Flood": 21,
+    "MITM-ArpSpoofing": 33,
+    "Mirai-greeth_flood": 22,
+    "Mirai-greip_flood": 23,
+    "Mirai-udpplain": 24,
+    "Recon-HostDiscovery": 25,
+    "Recon-OSScan": 26,
+    "Recon-PingSweep": 27,
+    "Recon-PortScan": 28,
+    "SqlInjection": 29,
+    "Uploading_Attack": 30,
+    "VulnerabilityScan": 31,
+    "XSS": 32
+  },
+  "numeric_features": [
+    "Header_Length",
+    "Protocol Type",
+    "Time_To_Live",
+    "Rate",
+    "fin_flag_number",
+    "syn_flag_number",
+    "rst_flag_number",
+    "psh_flag_number",
+    "ack_flag_number",
+    "ece_flag_number",
+    "cwr_flag_number",
+    "ack_count",
+    "syn_count",
+    "fin_count",
+    "rst_count",
+    "HTTP",
+    "HTTPS",
+    "DNS",
+    "Telnet",
+    "SMTP",
+    "SSH",
+    "IRC",
+    "TCP",
+    "UDP",
+    "DHCP",
+    "ARP",
+    "ICMP",
+    "IGMP",
+    "IPv",
+    "LLC",
+    "Tot sum",
+    "Min",
+    "Max",
+    "AVG",
+    "Std",
+    "Tot size",
+    "IAT",
+    "Number",
+    "Variance"
+  ],
+  "categorical_features": [],
+  "categorical_vocabulary": "auto",
+  "cohort_normal_cap": 20000,
+  "cohort_attack_cap": 2000,
+  "source_row_cap": 30000,
+  "source_provenance": "CICIoT2023 public raw 39-feature release variant, first complete lexicographic CSV per native class, pinned Kaggle v1 with cross-mirror hashes; CC BY 4.0 declaration; official primary hashes unavailable",
+  "data_limitations": "39-feature public release differs from 46 features described in primary paper. Exact official byte equality unverified. One capture per class; no retained timestamps/flow/session/device identifiers. Not full corpus or deployment prevalence.",
+  "seeds": [
+    2026110201,
+    2026110202,
+    2026110203,
+    2026110204,
+    2026110205
+  ],
+  "release_scope": "Core tree70 and matpv; historical seven-arm results included separately"
+}

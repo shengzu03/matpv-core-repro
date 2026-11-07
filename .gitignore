@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+runs/
+data/
+.cache/
+*.pkl
+*.ckpt
+*.pt
+*.csv
+!reference/**/main_results.csv
+!reference/**/efficiency_results.csv

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "python_executable": "<LOCAL_ARCHIVE>/research_runs/recent_paper_comparison_20261029/env/Scripts/python.exe",
+  "tree_constructor_AST_equivalent_to_retained_baseline": true
+}

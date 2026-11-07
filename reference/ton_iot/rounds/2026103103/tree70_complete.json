@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-31T02:34:15.171530+00:00",
+  "fit_seconds": 25.10899999999674,
+  "inference_seconds": 0.375,
+  "inference_ms_per_row": 0.022047151508025165,
+  "model_bytes": 149182920,
+  "prediction_sha256": "4c5897f657ebc3af0d2f107d05648710ac48a6465eeedc25baeff061107a7e5c",
+  "threshold": 0.1333333333333333
+}

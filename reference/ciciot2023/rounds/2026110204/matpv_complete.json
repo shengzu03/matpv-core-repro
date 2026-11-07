@@ -1,0 +1,428 @@
+{
+  "utc": "2026-11-02T14:06:03.800927+00:00",
+  "times": {
+    "source_teacher_and_query50_seconds": 49.78099999999904,
+    "oof_and_tree50_seconds": 265.98399999999674,
+    "graph_seconds": 7.688000000001921,
+    "graph_nodes": 36534,
+    "graph_edges": 492768,
+    "fold": [
+      0,
+      4,
+      2,
+      4,
+      0,
+      0,
+      3,
+      1,
+      2,
+      1,
+      0,
+      2,
+      1,
+      3,
+      0,
+      1,
+      1,
+      2,
+      4,
+      3,
+      0,
+      2,
+      2,
+      3,
+      4,
+      3,
+      4,
+      3,
+      3,
+      4,
+      0,
+      2,
+      2,
+      2,
+      4,
+      4,
+      1,
+      3,
+      1,
+      1,
+      0,
+      0,
+      4,
+      3,
+      1,
+      3,
+      4,
+      1,
+      0,
+      2
+    ],
+    "query20_seconds": 2.6090000000003783,
+    "memory_and_svm_heads_seconds": 1.8279999999977008
+  },
+  "inference_seconds": 6.389999999999418,
+  "inference_ms_per_row": 0.37281213535585866,
+  "model_bytes": 2246612688,
+  "model_sha256": "ba4fcbb62e3412f569c2cbabadb558c3a8be7de4fc9cb0eaccc72d23d72f6980",
+  "training_sha256": "b42a12569dace6104449af7ef4184d8f77e5a3509d7a5f63b4cb3c16d0178369",
+  "prediction_sha256": "39320f40393264a3332ed9f1569009bac2e85574a8b136122bfad8358e4e4c93",
+  "unsupported_gaussian": false,
+  "unsupported_svm": false,
+  "pair_audits": {
+    "1": {
+      "rows": 770,
+      "n_iter": [
+        293
+      ],
+      "support": [
+        199,
+        6
+      ]
+    },
+    "2": {
+      "rows": 754,
+      "n_iter": [
+        297
+      ],
+      "support": [
+        208,
+        6
+      ]
+    },
+    "3": {
+      "rows": 727,
+      "n_iter": [
+        269
+      ],
+      "support": [
+        172,
+        6
+      ]
+    },
+    "4": {
+      "rows": 762,
+      "n_iter": [
+        101
+      ],
+      "support": [
+        37,
+        6
+      ]
+    },
+    "5": {
+      "rows": 762,
+      "n_iter": [
+        67
+      ],
+      "support": [
+        29,
+        6
+      ]
+    },
+    "6": {
+      "rows": 789,
+      "n_iter": [
+        25
+      ],
+      "support": [
+        9,
+        6
+      ]
+    },
+    "7": {
+      "rows": 759,
+      "n_iter": [
+        45
+      ],
+      "support": [
+        17,
+        6
+      ]
+    },
+    "8": {
+      "rows": 768,
+      "n_iter": [
+        38
+      ],
+      "support": [
+        17,
+        6
+      ]
+    },
+    "9": {
+      "rows": 754,
+      "n_iter": [
+        39
+      ],
+      "support": [
+        6,
+        5
+      ]
+    },
+    "10": {
+      "rows": 828,
+      "n_iter": [
+        21
+      ],
+      "support": [
+        11,
+        3
+      ]
+    },
+    "11": {
+      "rows": 794,
+      "n_iter": [
+        152
+      ],
+      "support": [
+        56,
+        5
+      ]
+    },
+    "12": {
+      "rows": 778,
+      "n_iter": [
+        15
+      ],
+      "support": [
+        7,
+        3
+      ]
+    },
+    "13": {
+      "rows": 735,
+      "n_iter": [
+        53
+      ],
+      "support": [
+        26,
+        6
+      ]
+    },
+    "14": {
+      "rows": 804,
+      "n_iter": [
+        48
+      ],
+      "support": [
+        14,
+        5
+      ]
+    },
+    "15": {
+      "rows": 751,
+      "n_iter": [
+        48
+      ],
+      "support": [
+        29,
+        5
+      ]
+    },
+    "16": {
+      "rows": 783,
+      "n_iter": [
+        253
+      ],
+      "support": [
+        167,
+        6
+      ]
+    },
+    "17": {
+      "rows": 769,
+      "n_iter": [
+        290
+      ],
+      "support": [
+        208,
+        5
+      ]
+    },
+    "18": {
+      "rows": 771,
+      "n_iter": [
+        63
+      ],
+      "support": [
+        28,
+        5
+      ]
+    },
+    "19": {
+      "rows": 827,
+      "n_iter": [
+        41
+      ],
+      "support": [
+        14,
+        3
+      ]
+    },
+    "20": {
+      "rows": 775,
+      "n_iter": [
+        79
+      ],
+      "support": [
+        30,
+        6
+      ]
+    },
+    "21": {
+      "rows": 779,
+      "n_iter": [
+        53
+      ],
+      "support": [
+        24,
+        7
+      ]
+    },
+    "22": {
+      "rows": 758,
+      "n_iter": [
+        31
+      ],
+      "support": [
+        15,
+        5
+      ]
+    },
+    "23": {
+      "rows": 772,
+      "n_iter": [
+        60
+      ],
+      "support": [
+        21,
+        5
+      ]
+    },
+    "24": {
+      "rows": 763,
+      "n_iter": [
+        88
+      ],
+      "support": [
+        31,
+        6
+      ]
+    },
+    "25": {
+      "rows": 783,
+      "n_iter": [
+        196
+      ],
+      "support": [
+        125,
+        6
+      ]
+    },
+    "26": {
+      "rows": 756,
+      "n_iter": [
+        353
+      ],
+      "support": [
+        237,
+        6
+      ]
+    },
+    "27": {
+      "rows": 777,
+      "n_iter": [
+        306
+      ],
+      "support": [
+        243,
+        5
+      ]
+    },
+    "28": {
+      "rows": 788,
+      "n_iter": [
+        312
+      ],
+      "support": [
+        210,
+        6
+      ]
+    },
+    "29": {
+      "rows": 797,
+      "n_iter": [
+        262
+      ],
+      "support": [
+        197,
+        6
+      ]
+    },
+    "30": {
+      "rows": 480,
+      "n_iter": [
+        193
+      ],
+      "support": [
+        131,
+        5
+      ]
+    },
+    "31": {
+      "rows": 741,
+      "n_iter": [
+        277
+      ],
+      "support": [
+        185,
+        5
+      ]
+    }
+  },
+  "unsupported_gaussian_reason": null,
+  "unsupported_svm_reason": null,
+  "threshold": 0.9264125057713447,
+  "eta": 3.1935207380633095,
+  "svm_threshold": 1.6500242990086407,
+  "source_review_rows": 30070,
+  "guard_id": 32,
+  "focus_id": 33,
+  "classes": [
+    "normal",
+    "Backdoor_Malware",
+    "BrowserHijacking",
+    "CommandInjection",
+    "DDoS-ACK_Fragmentation",
+    "DDoS-HTTP_Flood",
+    "DDoS-ICMP_Flood",
+    "DDoS-ICMP_Fragmentation",
+    "DDoS-PSHACK_FLOOD",
+    "DDoS-RSTFINFLOOD",
+    "DDoS-SYN_Flood",
+    "DDoS-SlowLoris",
+    "DDoS-SynonymousIP_Flood",
+    "DDoS-TCP_Flood",
+    "DDoS-UDP_Flood",
+    "DDoS-UDP_Fragmentation",
+    "DNS_Spoofing",
+    "DictionaryBruteForce",
+    "DoS-HTTP_Flood",
+    "DoS-SYN_Flood",
+    "DoS-TCP_Flood",
+    "DoS-UDP_Flood",
+    "Mirai-greeth_flood",
+    "Mirai-greip_flood",
+    "Mirai-udpplain",
+    "Recon-HostDiscovery",
+    "Recon-OSScan",
+    "Recon-PingSweep",
+    "Recon-PortScan",
+    "SqlInjection",
+    "Uploading_Attack",
+    "VulnerabilityScan",
+    "XSS",
+    "MITM-ArpSpoofing"
+  ]
+}

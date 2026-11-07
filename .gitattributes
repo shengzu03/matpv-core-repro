@@ -1,0 +1,2 @@
+# Preserve the exact bytes required by release_manifest.json, including mixed historical CSV line endings.
+* -text

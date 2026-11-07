@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "引用本代码包时请注明版本；论文尚未发表，当前无论文DOI。"
+title: "有限新增标注下的物联网稀有攻击类别补检 核心复现代码"
+version: 0.1.1
+date-released: 2026-11-07
+authors:
+  - family-names: 孙
+    given-names: 盛祖
+  - family-names: 于
+    given-names: 万钧

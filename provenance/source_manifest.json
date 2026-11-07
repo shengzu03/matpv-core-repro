@@ -1,0 +1,925 @@
+{
+  "version": "0.1.0",
+  "generated_on": "2026-11-06",
+  "records": [
+    {
+      "original_archive": "cic_external_comparison_20261102",
+      "original_file": "matpv.py",
+      "original_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351",
+      "packaged_path": "matpv_repro/workflow/matpv.py",
+      "adaptation": "Only relative imports and bundled Gaussian helper import; original per-dataset algorithm and run sequence retained."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "matpv.py",
+      "original_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7",
+      "packaged_path": "matpv_repro/workflow/matpv_ton.py",
+      "adaptation": "Only relative imports and bundled Gaussian helper import; original per-dataset algorithm and run sequence retained."
+    },
+    {
+      "original_archive": "tree_subtype_repair_20261026",
+      "original_file": "run.py",
+      "original_sha256": "47108ca963c84fc710a4d78e6672b8a81fa70574b27534c6b9678da674c3d97d",
+      "packaged_path": "matpv_repro/workflow/gaussian_memory.py",
+      "adaptation": "Extract covariance and fit_head without algorithm changes."
+    },
+    {
+      "original_archive": "cic_external_comparison_20261102",
+      "original_file": "prepare.py",
+      "original_sha256": "a59dc1e7c5ebf5c99d99f06cdac5e1396cc0e80bc0c2ffebc67f1a8b971e83ef",
+      "packaged_path": "matpv_repro/workflow/prepare_external.py",
+      "adaptation": "Relative import and portable SHA256 check; cohort and split logic retained."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "prepare.py",
+      "original_sha256": "9ab1f65ba2be464c87c70dc93c3623c923f83d876f89b3160ad1932b22308402",
+      "packaged_path": "matpv_repro/workflow/prepare_ton.py",
+      "adaptation": "Only relative import and portable source/index locations."
+    },
+    {
+      "original_archive": "cic_external_comparison_20261102",
+      "original_file": "common.py",
+      "original_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119",
+      "packaged_path": "matpv_repro/workflow/common.py",
+      "adaptation": "Pure helpers retained; explicit context replaces import-time side effects; release/input integrity replaces local archive freeze."
+    },
+    {
+      "original_archive": "cic_external_comparison_20261102",
+      "original_file": "evaluate.py",
+      "original_sha256": "de021b34ec5679d9784234f5c1eb35e0a95122ce644206a0815e7dc83218124a",
+      "packaged_path": "matpv_repro/workflow/metrics.py",
+      "adaptation": "Extract metrics function unchanged; new reporting wrapper separate."
+    },
+    {
+      "original_archive": "research_runs",
+      "original_file": "protocol.json",
+      "original_sha256": "bbfe8f4a1972589ae02f843701bd1d41d8f1895e5ca19bb2352b09915951b6ed",
+      "packaged_path": "reference/ton_iot/protocol.json",
+      "adaptation": "Only local path sanitization; scientific protocol retained."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "main_results.csv",
+      "original_sha256": "6fa26aa0e9bd6d3aed1e1373b764ea574ea501d7c14dc8f581f3f3243ae86194",
+      "packaged_path": "reference/ton_iot/main_results.csv",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "summary.json",
+      "original_sha256": "1b0651b515e2394b980deffeff00d4233b932d12133fafe8121a8e9c76adf0e7",
+      "packaged_path": "reference/ton_iot/summary.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "verification.json",
+      "original_sha256": "21f8589ea12a376af3d020a5d3808d86b99c00e6a831e4e9ce8968eaca5772fc",
+      "packaged_path": "reference/ton_iot/verification.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "data_audit.json",
+      "original_sha256": "d6872c27a4bd2bf884d674a83ed869cc97c677523f305c165661ecb1ecd9bd21",
+      "packaged_path": "reference/ton_iot/data_audit.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "full_scale_matpv_comparison_20261031",
+      "original_file": "independent_metric_verification.json",
+      "original_sha256": "fb5a806bd4b6599299586647bbc4e03a75005a1ea42b9849fd2c4500434b5abf",
+      "packaged_path": "reference/ton_iot/independent_metric_verification.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "2be626d0ee13b43a40c4d0c1c2637c812b75eb39cd62563be6122d9cc5e99004",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "c65859a7965a1754e5732bc41980ea156d01a9427c7858c55c68288e5047fa6f",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "c566822b76a891e9c83ad0f8126838b5567e8ab3af2104020c549b172855d1c3",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "c4e060a6ebd5eaffd1860ccaa0468266772024db62b115a1d9e99b391403b326",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "9601c500874fc98ff751a4c08d96b2c2f2c24588eef81e7d9d361dfc43214b50",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "542daf03cd5d943456109ed13d972474d58dea98c98824b17e8ea6f5e09dfa5d",
+      "packaged_path": "reference/ton_iot/rounds/2026103101/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "13967f3c1f57236f0e18c786900867c3128315f5d9919b07aac65d4cd4012b71",
+      "packaged_path": "reference/ton_iot/splits/2026103101.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "a76bda6d3293f825b47d310932b8cdd271b61c0345261dd3930522b7fcd2f586",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "f796a4b37d11fd8e1f2dd8c89ec28ada2b5ab2367c1c2a2c900d1ebb3b67b08c",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "bf286a3683b331f1eea4ecec5a60d148a4d68a7887b79c88c83b3ba931501ad9",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "c4331d524bd37465bfb190b8b331a55e4b7c62284b65357f5d8086fc6d81bd52",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "322e15d558162c663ed2595085eb124c437371dda8b6cdf3831dd53581a6eef4",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "9139d9e1870090efa7caa86194a720d57265fb5e2675fa2a213323f095b03be6",
+      "packaged_path": "reference/ton_iot/rounds/2026103102/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "46652c8c58ba459d83393ccf2c3545220509544c70497a2c7a64901f30f198ee",
+      "packaged_path": "reference/ton_iot/splits/2026103102.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "1ea259f26e7a439a6ee37f82d620b00a40bc78e99c727d7d0712d2d7fc1f505c",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "50675c9621ebf9a9950a3e845e7749c05bdeb396e87e17275874f828d47a8e17",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "025d7ad9bcde930ef322ae17a49a7d9b80d8d0adee0f272c399d3b4adc89c107",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "6ecbfd98cb20b859334d7f753564a5a0218c29bfe073b4107c1704bb4dc79ed6",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "fafe36fbaac4f89bb3a2e7b71b3c510424d6acb81a0234957e20d4e1315eae59",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "bae1437b5b4d6988447c172b216160e65c33da62056a16ca8bef0b0990c02ed4",
+      "packaged_path": "reference/ton_iot/rounds/2026103103/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "1c41258f7489fbb18a1897df124985231b26613f880c0b5e9bd91a0d4921cf3a",
+      "packaged_path": "reference/ton_iot/splits/2026103103.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "795467f96c598ba58950ecfffab23e2a7d987ae856d243fa055d92ce5031a9cc",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "cc6f1526314e155ed691d45d5155df8c364b3d750b2cf4e2c652a6f93e9a0bbf",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "af6762cd0abf8eed823e2da59abe6eefd6c157cac2cbfce7126be78fa516c0e1",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "1a33c701cd2dbdb8d3201cb42884e117227dc21b9f94aec97e8166bb4cdd54ef",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "10a3100487852faa291ce8fb549baa97aa9b72fa9908af5e37f06027ddc12c11",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "cdf8d48d0b094b528981808d8e05012faa5265d47f6dae6a3a9038b452691a47",
+      "packaged_path": "reference/ton_iot/rounds/2026103104/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "93f088162cea476e844fddee5c545a42baa756b3a585de3df2af49a6935084b1",
+      "packaged_path": "reference/ton_iot/splits/2026103104.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "c828c4583c5712f339af6c3d5b38f5a553392cc7f9acfca31ca709e8a9de381b",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "a094e11b7c4be79cfc2fbac7ead2c7e3777faa2fc283c11a19073e4452d31b6e",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "f69882d600978ae9d86025493335a83c8fb3d48b54e104e99878c48d93cd130d",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "404a1833b7b991e19a8a0ab0e95eac34c09c59fb5ec90e953451b5b466d1bc97",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "89604063ecaf60fef6cddcb597f5a99d699edd0682acedc19f81f5b610a2b656",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "ba67d51db59483e22b3ecdae466878153d6d004f938a65a0c770a6ac6400ad39",
+      "packaged_path": "reference/ton_iot/rounds/2026103105/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "a1932b4fecade8bd46f4add23e6d176f8e816e066ebfdbf2817e683c01b3f45b",
+      "packaged_path": "reference/ton_iot/splits/2026103105.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "benchmarks",
+      "original_file": "protocol.json",
+      "original_sha256": "180c688a38e1c4e819009bca513c8420b6d0fd4a73ffdd82da8f5c6fc3eb8485",
+      "packaged_path": "reference/rt_iot2022/protocol.json",
+      "adaptation": "Only local path sanitization; scientific protocol retained."
+    },
+    {
+      "original_archive": "rt_iot2022",
+      "original_file": "main_results.csv",
+      "original_sha256": "ad0f6c7477129be99adae0c0a114dc410ddc0ff5abe5a2f52300773529c8d893",
+      "packaged_path": "reference/rt_iot2022/main_results.csv",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "rt_iot2022",
+      "original_file": "summary.json",
+      "original_sha256": "362787aa3e96ea51a38927632f82312047b53a882a39837efe0a60e9c02b90d7",
+      "packaged_path": "reference/rt_iot2022/summary.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "rt_iot2022",
+      "original_file": "verification.json",
+      "original_sha256": "b5b1acdf8050061537fda8768396d75ff06791b3010ed13a1d13808918de55e7",
+      "packaged_path": "reference/rt_iot2022/verification.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "rt_iot2022",
+      "original_file": "cohort_audit.json",
+      "original_sha256": "b498e2f6e661f9b1fe2d07bd3e69bfca7476b2da097a68252fae83b64dbf17ee",
+      "packaged_path": "reference/rt_iot2022/cohort_audit.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "rt_iot2022",
+      "original_file": "data_audit.json",
+      "original_sha256": "75c4a6ed4fc77f5bc56649606070a4eda7296d2336812f8ce159a25c5b8b2298",
+      "packaged_path": "reference/rt_iot2022/data_audit.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "df9341a8de688a5c0a77d5521eaa84e1f66ebb718bcaf1965739b80a4f7a14d4",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "bd94cd32007573784fb77ac7ac0a509812543e07b60b70407617462141bf9844",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "11663e16eb31aa9551ec5c203286b84f97643e04acd9ca1603f1663bfed37204",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "a4ba3c77d2e9528f399b867538804bbf78ffed4cfbd8dd99e7af46f97f543ebe",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "d90bdbd8c87e4853e2a43c4f45fb74d00568139b9b6695c7c0f708e45679dc0b",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "f06fbf86c458197da23a25ec46b02eac007caf1ba61cacf522b843c237a000f5",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110201/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "85bc43ba2a0b888c2515b7aca6e739b943160b07a22410759810a292e1f3700b",
+      "packaged_path": "reference/rt_iot2022/splits/2026110201.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "948221d6cfba8b3f7efb7910063a67a4f4772c81572def01d20e51deb92053c4",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "4b8e905c7d808fa3a47395c168125602fbd86aa6f48b2df47a9f04c3f5a876d7",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "8f5184b9f8f4073a2902791a8055ca24132cfc1e156130dc27c18266ab5f98de",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "a483b7c68f7dce81811ba09b49d12bcc331e782e3aff1bba66d586d61b88680e",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "fa0e6f6545210aedf879100ffb94af53dc5d9fdf53adf70d94860abe3b610246",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "c9dca5688f9ab2baeca3dcabf061fee32a62d2abd71093fd46767c1b469766ca",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110202/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "2a31af83149148b8cdb657032d33121c4dedb9e60fa0b2965b4fc47768ba0acc",
+      "packaged_path": "reference/rt_iot2022/splits/2026110202.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "731c53942a940129d3cc053138a38c18f606b66c3e948847f54c6a96c70b72b2",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "1bb80bfb06b73c632ad965246e472a3c93f76b1b6787b875f9707f958e43a4ca",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "ebc10877cee343622bdd48ab5f0399c68411bd185ef93dd2b27e3a92458f1d58",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "0d475a1cea9e2b9541f8b8e01ea6c5a133f99624bdc6a76a8a99c256cac0807b",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "f76a61b03b79907f10f3aac8ddf79fd3631e0b2cda4ed261a0484d55d1e6c6cd",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "ea5d0d162f17ee9a17dd7c140f948e62d0f0f7193c0f4ea7c80e808b71361fed",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110203/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "ce545fefd621ee7da6d1588545ba0481555d7e08343ae12a466ce38b83c7b6a5",
+      "packaged_path": "reference/rt_iot2022/splits/2026110203.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "44c3a014583a3ff26e0f322abcbcd324ca58246229215eca04846e002f8a5ecf",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "29aa023bfc6e57ae49dae264cfa789f636749480e5697fac503dbe85f0283235",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "b95855f6165ebf1d4488642cdee937dfa3cb19bf618fca7fc63e49c021fea200",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "345e43e7a4924665b17e3d2bbc00d670fb2081600e12f99e62e74d75ddfff36a",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "25068a7e3182bcb3a7cf8660835cb52c1627407436df197c872a6b78a29b39c8",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "9c9276f6f02af654562e3f33469881a62b7420d4fca13907ea28e323e8f5892a",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110204/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "9c07f8e795deddd7f63ac227e8e851ca28329bc05fa1f797f4092af56cd362ff",
+      "packaged_path": "reference/rt_iot2022/splits/2026110204.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "8a37f3acc8b0a25bd3d987d3cea76f4aca73fbc023df60fdf7785062e3e9d68e",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "8547630b6349378a068c7e62baead8111102c43376143753982a29a187f47165",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "91c3c95f58ef16162f062af9582b80711865177b04c9b2b4479a191897b969f2",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "b0000b7b08132289efa002d6c66a5c8a32499ecdf3ea66fa69d482d3e6e4c7a3",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "d0276ad2c585a5ed6ce6c192f214db2f34af5d43597eed4ac8bbb3580f8b7ba6",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "c526a34149e94da600e5ab0d2bb5eced960f750b5507d13c04f4caaa330b419b",
+      "packaged_path": "reference/rt_iot2022/rounds/2026110205/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "3c7737222d7fddbf4551733594f33399c7428a48676133c0786d04ed199d077b",
+      "packaged_path": "reference/rt_iot2022/splits/2026110205.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "benchmarks",
+      "original_file": "protocol.json",
+      "original_sha256": "0622595b66fd7e9506916a22fce17da18f0386d9dd8a79971180e807cbd32861",
+      "packaged_path": "reference/ciciot2023/protocol.json",
+      "adaptation": "Only local path sanitization; scientific protocol retained."
+    },
+    {
+      "original_archive": "ciciot2023",
+      "original_file": "main_results.csv",
+      "original_sha256": "86d6a4994fe161066a62c18556579ea5721ac4dc690ae88ed5a6d49113bd7330",
+      "packaged_path": "reference/ciciot2023/main_results.csv",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "ciciot2023",
+      "original_file": "summary.json",
+      "original_sha256": "a23e6fb4bf90a41649c1fb323389c4695670684c834ac4dcb66a2eab83cc2c90",
+      "packaged_path": "reference/ciciot2023/summary.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "ciciot2023",
+      "original_file": "verification.json",
+      "original_sha256": "991cc88f2e05c4636cce81e5555b87cbd62032e8c385eb6ea83d1b45f0f718a1",
+      "packaged_path": "reference/ciciot2023/verification.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "ciciot2023",
+      "original_file": "cohort_audit.json",
+      "original_sha256": "ef22d777cb368a41e2208202f6f910ecc157fbfc844bd16e10274ddf856ac028",
+      "packaged_path": "reference/ciciot2023/cohort_audit.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "ciciot2023",
+      "original_file": "data_audit.json",
+      "original_sha256": "7426123cf9e1ba5387f1d2c7f757d9e7dd85306fd6be7016dc2a4640b6776c45",
+      "packaged_path": "reference/ciciot2023/data_audit.json",
+      "adaptation": "Historical record; JSON local path sanitization only, no metric recomputation."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "73a7ca75cda3d36088e9767c39083e9a68bfb72fb45aa299e3820d381828329a",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "8c2756ace5f3879c4071220d5e27115b75b1dea4816f3463a99bd15c51f2cf58",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "ae7d5432a8ee8ccdfab9e35ba11212ad540004582980e4e153965b60873dc6eb",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "95fc745f28aa41bff07c1b119a6e40d3066e975b51862a4b48142b95306d1435",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "46e860a5bdde04aea11f54b50a511c328821442ca3cae341a64fdea11dd27c3e",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "3c79f5cafc422c8c0edd6328de0bad7f26f0b29d60837f95b7fc26b4f3df68f4",
+      "packaged_path": "reference/ciciot2023/rounds/2026110201/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "d355bb56eec65e6be1f87a11861cc185c82a7d18e08b89ee6fc2a5a9293659be",
+      "packaged_path": "reference/ciciot2023/splits/2026110201.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "842dae0506cf64c17f3505a3b0daee3f3b96087cc573d59fc730267bd973147b",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "7dfe19d8e74a6ac2171a13d838b0c6cbaf39cd47fb9432dcb9cf0e7eda709331",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "8b9daa5ec47a767a83a13f15beb5fc418b264ebbded5fcbc69d688f60b8598b6",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "9ffa6755e43a6dbe22ab36c4154335bb1a84a4fa5250f2eac12ac57a7055b962",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "cef50d8131f4bea1821d478f47e4a92bd191746e30a1e1d9672130ccd2f0a2f3",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "e5e7a32dc839b59fd0d9f813fce900bab3f3c7161afdda3c48251cfb01eed5b2",
+      "packaged_path": "reference/ciciot2023/rounds/2026110202/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "643a79f2fbd259d67701f2d24f649630bdfb089004fceb27f74f21d52dd62df7",
+      "packaged_path": "reference/ciciot2023/splits/2026110202.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "3589e25bf4814b4362628927cec5100a8360b058c31923eb5f4e6cef375ef973",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "08bbe8d37f16dbf2b1d7a9617fbaa0923b5611e3bb85e30cf537e1333ec1e137",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "33b195f319cd253acd353f2b2c5bd440d94d69d3e6ee2afe35ce6567c29c3795",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "bb398b0e6e618e2f75d8ab254d0fc908d55bfe5fbd70e332fba78ddd17204292",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "53318c5e9b55e64a5f1814d8a2e61c2016519989b06df608634a6dfae875c8a2",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "bf2b3dfdf1a44a2a90b1568456c741c5f839e0a1e23d111db146efbadc550936",
+      "packaged_path": "reference/ciciot2023/rounds/2026110203/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "820fd553dcb894b51522944d5645319d9f9761f26e8b79508b045b7595295344",
+      "packaged_path": "reference/ciciot2023/splits/2026110203.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "684511d33176c66a75fad1bc3afbf48a6255dac089066a092ecfb24844d718bf",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "7c5beacf8e4934a57588f08a3b480a6b20e1593d19f0ffd17b5530dfd9b6dd1e",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "ad6876d32ed387af33e40295af0483cf3aa99e89906067ea52f5590ccde7e55c",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "ba5a23897967021d08b6d782825215a9d416870170a910a095088b7f036559d7",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "5884dca2a50c96429276543bca8fb428062540aecf108927c4bd551cf82b30bf",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "573bc893d01b996dbfad3d315c1a0135ebf97d0719b6464f6e6b9cccdb0f6487",
+      "packaged_path": "reference/ciciot2023/rounds/2026110204/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "93f829ee6c13f33dda01f986ec935cd36142b4daff6a131129eacc88d8c70b91",
+      "packaged_path": "reference/ciciot2023/splits/2026110204.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query50_frozen.json",
+      "original_sha256": "ecfac1869f599601f0761b05d1a79f3224bc5759b1876154b19ebe9a5541d1ae",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/query50_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "query20_frozen.json",
+      "original_sha256": "4e21fbf799e2ee10ad9ed1e2f3a84e3624cd6011d30409384e351636ef3a2557",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/query20_frozen.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "label_budget.json",
+      "original_sha256": "409e8064d8d37ef59ebcc1a98bd28844722e7b1b0ccc60752f7fb18e039fb29f",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/label_budget.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "results.json",
+      "original_sha256": "868360b9db113ac95166bb5e2b8641d6d9e81b326f211cf56c34e864575b9185",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/results.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "tree70_complete.json",
+      "original_sha256": "6d01f28b5ebb9b49a2969a8f589acc4b3ee4540f354d188862b89832e2154d0f",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/tree70_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "outputs",
+      "original_file": "matpv_complete.json",
+      "original_sha256": "2ead27917f0cc7d5a5e8238b09554c41e32124d143b6889af8eb94cfb89fad11",
+      "packaged_path": "reference/ciciot2023/rounds/2026110205/matpv_complete.json",
+      "adaptation": "Historical record; no training or metric recomputation. Local paths sanitized."
+    },
+    {
+      "original_archive": "inputs",
+      "original_file": "features.npz",
+      "original_sha256": "249d0a2abd8ac375b066e65197f2e9f8a3ca73576d5f182b6f144d4c15fae586",
+      "packaged_path": "reference/ciciot2023/splits/2026110205.npz",
+      "adaptation": "Extract saved role row IDs, groups and hashes only; no flow features or new splits."
+    },
+    {
+      "original_archive": "research_datasets",
+      "original_file": "flow_input_group_index.npz",
+      "original_sha256": "ab061d84652d1e4479fb1f5abe38630f8e41360199d9938644050b776db03846",
+      "packaged_path": "metadata/ton_iot/flow_input_group_index.npz",
+      "adaptation": "Unmodified lightweight representative/group index, no flow features."
+    }
+  ],
+  "no_new_training_or_predictions": true,
+  "original_archives_unchanged": true
+}

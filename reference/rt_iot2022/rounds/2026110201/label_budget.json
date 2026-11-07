@@ -1,0 +1,58 @@
+{
+  "source": 6384,
+  "target": 70,
+  "calibration_normal": 2000,
+  "guard_validation": 100,
+  "guard_id": 8,
+  "focus_id": 9,
+  "classes": [
+    "normal",
+    "DOS_SYN_Hping",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "DDOS_Slowloris",
+    "ARP_poisioning"
+  ],
+  "source_plus_reviews_counts": [
+    6057,
+    37,
+    23,
+    3,
+    49,
+    28,
+    125,
+    51,
+    27,
+    54
+  ],
+  "query50_counts": [
+    7,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    7,
+    34
+  ],
+  "query20_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    20
+  ],
+  "training_sha256": "f29d1344c7e6b82af6824fd32d9d32e80e04d6b567839af9375c9edcc2cfdc91",
+  "test_labels_used": false
+}

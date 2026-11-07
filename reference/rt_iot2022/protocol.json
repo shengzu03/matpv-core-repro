@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-11-02T05:11:35.058597+00:00",
+  "authorized_user_scope": "Preserve retained model; compare original, TabM, ModernNCA, TabICL; same budget, five paired splits; all work E; no manuscript",
+  "retained_method": "MAT-PV; formulas and hyperparameters from completed TON benchmark",
+  "adapter_changes_only": [
+    "Native class count/roles and feature schema",
+    "Undefined missing-class comparator returns no evidence, not a forced promotion",
+    "Hardware-only batch fallback before experimental outcomes",
+    "Official TabICL cache disabled for >10 observed classes; eight members and all rows unchanged"
+  ],
+  "seeds": [
+    2026110201,
+    2026110202,
+    2026110203,
+    2026110204,
+    2026110205
+  ],
+  "arms": [
+    "tree70",
+    "matpv",
+    "tabm_ce",
+    "tabm_balanced",
+    "modernnca_ce",
+    "modernnca_balanced",
+    "tabicl_v2"
+  ],
+  "no_test_based_hyperparameter_search": true,
+  "cohort_rule": "Class-stratified input-hash cohort: up to 20,000 normal and 2,000 each native attack after same-input/same-label dedup; restore entire cross-label groups. All actual labels retained. Explicitly not full corpus/natural prevalence.",
+  "features": "Exclude target, attempted flags, row indices, source class directory, IPs, ports, timestamps, payload IDs. Signed log1p numeric values, canonical float32 grouping. Fixed published-standard categorical vocabulary where configured.",
+  "split_rule": "20% group-stratified test; 2000 normal plus100 protected-class calibration labels; focus absent from source and protected source<=20;80% other available groups, source total<=30000; remainder unlabeled target. Exact-input groups never cross roles.",
+  "target_annotation_budget": 70,
+  "shared_acquisition": "Same retained tree blind50+graph-corrected entropy20; do not force discovery of focus class; same queried labels for all arms",
+  "other_labels": "All source labels +2000 normal calibration labels +100 protected-class validation labels identical and disclosed for all arms;70 is additional target reviews, not total labels",
+  "preprocessing_fit": "Source-only distance median/IQR; source-only learned schema unless fixed category vocabulary. Deep standardization/bins fit within selection-fitting fold then refit on all shared training.",
+  "threshold_rule": "Each model independently uses identical 99% normal-calibration order statistic, strict >. No threshold tuning on external test.",
+  "model_training": "Pinned official sources/checkpoint as TON;200epoch cap,20patience; ordinary and inverse-frequency loss both retained, no test-based variant choice; TabICL8members,official repr cache for <=10 observed classes and cache=False for >10 (official hierarchical path),all context,multi-class hierarchy enabled",
+  "hardware": "CPU1thread trees; RTX3050Laptop4GB GPU deep/TabICL; synthetic full-shape hardware preflight256,128,64 before outcomes, no silent row subsampling",
+  "primary_report": "Mean ± SD and paired percentage-point differences over all5overlapping group splits; two low-label role attacks mean F1, all-class macroF1, per-role precision/correct-type recall/any-attack alarm recall,FPR,efficiency",
+  "rare_f1_definition": "Arithmetic mean subtype F1 of predeclared protected scarce-label and source-absent focus attack; not all rarest native classes",
+  "evaluation_barrier": "Freeze all completed predictions and recorded failures before test metrics. No method changes after barrier. No dropping failures or poor seeds.",
+  "claim_limits": [
+    "No XSS label. ARP poisoning and Slowloris keep their actual native meanings. No timestamps/host/flow identifiers for independent-session/temporal claims.",
+    "Five overlapping splits are not five independent datasets.",
+    "Record-group random evaluation cannot establish deployment, temporal or cross-device generalization.",
+    "No guaranteed improvement, SOTA claim, significance or publication outcome."
+  ],
+  "runtime_compatibility_amendment": {
+    "utc": "2026-11-02T09:35:01.234400+00:00",
+    "scope": "TabICL only when observed classes >10",
+    "kv_cache": false,
+    "ICL_CONFIG_offload": false,
+    "eight_members_and_all_context_rows_preserved": true,
+    "reason": "Official hierarchy composes probabilities on one device; auto offload caused CPU/CUDA mismatch",
+    "no_external_test_quality_metrics_read": true
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "method": "AST equality ignoring positions; wrappers and run import adaptation excluded",
+  "functions": [
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "folds",
+      "ast_sha256": "d6b0b0f303a8e83c151e314bc1dcf26af032764686b7f426475bbda73da22a88",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "validation",
+      "ast_sha256": "0cf8763eed9cee91bf6f243be7438e66bf4cdedd4f4726cd2ca67b3cbe36be27",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "first_queries",
+      "ast_sha256": "b3f4296cd3f98e3e07e0da821f64d19c6205376180661ac214d104d2b92e9d0e",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "diffusion",
+      "ast_sha256": "c1161e2c3074770bdc23fcaf27356b452a08abff7d54e1efb3a0091cd4d5b37c",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "graph_proba",
+      "ast_sha256": "c8dde3dea325a378dccfb1bf5041e1bb3a20e7a2e182c25befc4d4aa68792605",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "gaussian",
+      "ast_sha256": "51a1f0fb64b17725d6d2aa2a2b7ac8c8293e81af539e3b31aaf6be3aae9d78b6",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "evidence",
+      "ast_sha256": "fb4283a15c8175a0fe561eb4c72cbda0490e346e7cb7cc272a382c635da70a4a",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "final_decision",
+      "ast_sha256": "571af7dcc61513c8101053d594bb6072182494b9a8bcfe6299be2900db97bfdc",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv_ton.py",
+      "function": "ordinary_tree",
+      "ast_sha256": "9e52684f6992d55417561da5de832b7e0b6f8fa20199e34e48242d4d81f70a1f",
+      "original_file_sha256": "226aa74105833cdd6704bec059af17b335e932e264bd5e4be08b704286248cb7"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "folds",
+      "ast_sha256": "d6b0b0f303a8e83c151e314bc1dcf26af032764686b7f426475bbda73da22a88",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "validation",
+      "ast_sha256": "2874cc74cbabffa8516e822310f23886cba3c0982d5ec69169e299ae83a28225",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "first_queries",
+      "ast_sha256": "c83fc2017eabcf2e926efe8ced333aa33b99060f8500b6bf571d2d18fa224b6d",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "diffusion",
+      "ast_sha256": "235cb6a3fef8af753a5f3f7cdd63fe788496ad032ab84d303a71b1fe4a409e70",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "graph_proba",
+      "ast_sha256": "c8dde3dea325a378dccfb1bf5041e1bb3a20e7a2e182c25befc4d4aa68792605",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "gaussian",
+      "ast_sha256": "51a1f0fb64b17725d6d2aa2a2b7ac8c8293e81af539e3b31aaf6be3aae9d78b6",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "evidence",
+      "ast_sha256": "f1737738d7117f0c185cdbd6c3ba00fedef7e849640a8c7b7894dba433b5b218",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "final_decision",
+      "ast_sha256": "5f16c77de183f3d7521e278e895cd9c6fc2ed69a46b51ba7b03e1ce7b7c8ac84",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/matpv.py",
+      "function": "ordinary_tree",
+      "ast_sha256": "56b81092b6463ba3a6495dc341aac4c08b4069c815979230d09d5564c2548d14",
+      "original_file_sha256": "bb63fbb309a579aec7d0b1f69ae27e6623b751b108c5c5f114599c56a3ddc351"
+    },
+    {
+      "file": "matpv_repro/workflow/gaussian_memory.py",
+      "function": "covariance",
+      "ast_sha256": "1534d9523ac6cd4462088e0a5e0541eb3312d233435d3b4ad94361456e2f6574",
+      "original_file_sha256": "47108ca963c84fc710a4d78e6672b8a81fa70574b27534c6b9678da674c3d97d"
+    },
+    {
+      "file": "matpv_repro/workflow/gaussian_memory.py",
+      "function": "fit_head",
+      "ast_sha256": "b4e6bd374ea47bab01e5e91edf68c02709f4b195789202841903bb4e053d1427",
+      "original_file_sha256": "47108ca963c84fc710a4d78e6672b8a81fa70574b27534c6b9678da674c3d97d"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "now",
+      "ast_sha256": "b99c66735a3e9c6a78ff6f0985160e715909dcc5dfa52c1a5ac6a107ddb1977a",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "read",
+      "ast_sha256": "75e755bc6dbfedd875bb9334f49c76a840c213e476f1447242c951e6317e9ef2",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "sha",
+      "ast_sha256": "36d5adac8441129a827b8234ceb8ac0a14f7de434ab494db0c7028cc3a0c5c6c",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "load",
+      "ast_sha256": "d92a5fee5c45cf22992e996998fc33312c17e479d9445b8bd9c211363b443deb",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "threshold",
+      "ast_sha256": "c591c3d674a2d76da865c62d57518d311fd6d2b5d7eec8981a0d1925edaca278",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "decision",
+      "ast_sha256": "4eaa0e999469828ade0cc8b08320c3d1354d8644d69879722311e9a5695584c2",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "geometry",
+      "ast_sha256": "148d0319c84c778b7e338983314075a5b5a50dae186b37a19125057f5eae5d5b",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "probability",
+      "ast_sha256": "3b90dba5c1eb245e069a8efb0342f7195838553266580a8499f2a2880fbfc9eb",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "tree",
+      "ast_sha256": "7d7db6d9486e3eb2ec11efb261cc26e18ed1557f310eb802ad6e6b8c03c55ad7",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/common.py",
+      "function": "simplex",
+      "ast_sha256": "2d70f9ace35deccef3dee6dd7238fc77c833b99bc21727972d9ae4d0df072193",
+      "original_file_sha256": "3ca61e72755130004dd85d0e1fe06683f358ebc289f9949da6eab07ec116a119"
+    },
+    {
+      "file": "matpv_repro/workflow/metrics.py",
+      "function": "metrics",
+      "ast_sha256": "935ea3c4bc67610df75dc24907184161d9330b564db423ae76c8cdeb541e25ea",
+      "original_file_sha256": "de021b34ec5679d9784234f5c1eb35e0a95122ce644206a0815e7dc83218124a"
+    }
+  ]
+}

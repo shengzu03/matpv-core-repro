@@ -1,0 +1,472 @@
+{
+  "utc": "2026-11-02T05:12:05.169716+00:00",
+  "benchmark": "rt_iot2022",
+  "classes": [
+    "normal",
+    "DOS_SYN_Hping",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "DDOS_Slowloris",
+    "ARP_poisioning"
+  ],
+  "guard_id": 8,
+  "focus_id": 9,
+  "seeds": {
+    "2026110201": {
+      "seed": 2026110201,
+      "cohort_rows": 14990,
+      "cohort_components": 14979,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3508,
+          "components": 3501,
+          "class_counts": [
+            1517,
+            9,
+            6,
+            1,
+            12,
+            7,
+            33,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2998,
+          "components": 2995,
+          "class_counts": [
+            2392,
+            11,
+            7,
+            1,
+            15,
+            9,
+            39,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "feature_count": 96,
+      "source_guard_cap": 20,
+      "unfilled_guard_cap": 0,
+      "source_focus_rows": 0,
+      "all_rows_assigned": true,
+      "class_stratified_capped_cohort": true,
+      "source_row_cap": 30000,
+      "features_sha256": "85bc43ba2a0b888c2515b7aca6e739b943160b07a22410759810a292e1f3700b",
+      "oracle_sha256": "ee4ce7ef36247f26778ae3d8972e56e1c851efc3f12b2a8ce8dff2ca63681101",
+      "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+    },
+    "2026110202": {
+      "seed": 2026110202,
+      "cohort_rows": 14990,
+      "cohort_components": 14979,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3511,
+          "components": 3501,
+          "class_counts": [
+            1518,
+            9,
+            6,
+            1,
+            12,
+            7,
+            34,
+            13,
+            307,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2995,
+          "components": 2995,
+          "class_counts": [
+            2391,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            106,
+            401
+          ]
+        }
+      },
+      "feature_count": 96,
+      "source_guard_cap": 20,
+      "unfilled_guard_cap": 0,
+      "source_focus_rows": 0,
+      "all_rows_assigned": true,
+      "class_stratified_capped_cohort": true,
+      "source_row_cap": 30000,
+      "features_sha256": "2a31af83149148b8cdb657032d33121c4dedb9e60fa0b2965b4fc47768ba0acc",
+      "oracle_sha256": "ef7eb16dc4e3fc53fafc6c38e09ea5aac7f08683dc701ac67b9bc29c342541a7",
+      "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+    },
+    "2026110203": {
+      "seed": 2026110203,
+      "cohort_rows": 14990,
+      "cohort_components": 14979,
+      "roles": {
+        "source": {
+          "rows": 6384,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            124,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3509,
+          "components": 3501,
+          "class_counts": [
+            1517,
+            9,
+            6,
+            1,
+            12,
+            7,
+            34,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2997,
+          "components": 2995,
+          "class_counts": [
+            2392,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "feature_count": 96,
+      "source_guard_cap": 20,
+      "unfilled_guard_cap": 0,
+      "source_focus_rows": 0,
+      "all_rows_assigned": true,
+      "class_stratified_capped_cohort": true,
+      "source_row_cap": 30000,
+      "features_sha256": "ce545fefd621ee7da6d1588545ba0481555d7e08343ae12a466ce38b83c7b6a5",
+      "oracle_sha256": "4fda9f76e89fa41eeb6004de79bfe1ec3e99b17c78369f86c86270a48d2ba573",
+      "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+    },
+    "2026110204": {
+      "seed": 2026110204,
+      "cohort_rows": 14990,
+      "cohort_components": 14979,
+      "roles": {
+        "source": {
+          "rows": 6383,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            123,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3506,
+          "components": 3501,
+          "class_counts": [
+            1516,
+            9,
+            6,
+            1,
+            12,
+            7,
+            32,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 3001,
+          "components": 2995,
+          "class_counts": [
+            2393,
+            11,
+            7,
+            1,
+            15,
+            9,
+            41,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "feature_count": 96,
+      "source_guard_cap": 20,
+      "unfilled_guard_cap": 0,
+      "source_focus_rows": 0,
+      "all_rows_assigned": true,
+      "class_stratified_capped_cohort": true,
+      "source_row_cap": 30000,
+      "features_sha256": "9c07f8e795deddd7f63ac227e8e851ca28329bc05fa1f797f4092af56cd362ff",
+      "oracle_sha256": "91737247e4d3dfb64f699d5ec16cbb9ebb8d3af91d12ecc8369433ff5c7d43de",
+      "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+    },
+    "2026110205": {
+      "seed": 2026110205,
+      "cohort_rows": 14990,
+      "cohort_components": 14979,
+      "roles": {
+        "source": {
+          "rows": 6385,
+          "components": 6383,
+          "class_counts": [
+            6050,
+            37,
+            23,
+            3,
+            48,
+            28,
+            125,
+            51,
+            20,
+            0
+          ]
+        },
+        "cal": {
+          "rows": 2100,
+          "components": 2100,
+          "class_counts": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            0
+          ]
+        },
+        "pool": {
+          "rows": 3507,
+          "components": 3501,
+          "class_counts": [
+            1516,
+            9,
+            6,
+            1,
+            12,
+            7,
+            33,
+            13,
+            306,
+            1604
+          ]
+        },
+        "test": {
+          "rows": 2998,
+          "components": 2995,
+          "class_counts": [
+            2393,
+            11,
+            7,
+            1,
+            15,
+            9,
+            38,
+            16,
+            107,
+            401
+          ]
+        }
+      },
+      "feature_count": 96,
+      "source_guard_cap": 20,
+      "unfilled_guard_cap": 0,
+      "source_focus_rows": 0,
+      "all_rows_assigned": true,
+      "class_stratified_capped_cohort": true,
+      "source_row_cap": 30000,
+      "features_sha256": "3c7737222d7fddbf4551733594f33399c7428a48676133c0786d04ed199d077b",
+      "oracle_sha256": "b6b28a5a716c21c4be2cf7bc34427a21cece0f33d0e95e438ab090443178b499",
+      "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+    }
+  },
+  "previous_model_predictions_on_this_data": false,
+  "rows_removed_for_favorable_outcomes": 0,
+  "cohort": {
+    "utc": "2026-11-02T05:12:03.466768+00:00",
+    "raw_rows": 123117,
+    "uniform_nonfinite_removals": 0,
+    "finite_raw_class_counts": [
+      12507,
+      94659,
+      37,
+      28,
+      2000,
+      1002,
+      2590,
+      2010,
+      534,
+      7750
+    ],
+    "cohort_rows": 14990,
+    "cohort_class_counts": [
+      11959,
+      57,
+      36,
+      5,
+      75,
+      44,
+      196,
+      80,
+      533,
+      2005
+    ],
+    "cohort_components": 14979,
+    "cross_label_input_groups": 10,
+    "same_input_same_class_deduplicated": true,
+    "same_input_different_labels_preserved_in_same_group": true,
+    "cohort_sha256": "baab518f1e5db804d471282fcb45830ec40c4c1e9a4b624f61b0e4b02e4c3236",
+    "outcomes_used_for_selection": false,
+    "full_corpus": false,
+    "natural_prevalence": false,
+    "selection": "Smallest 128-bit canonical model-input hashes per true class, then restore all labels in selected hash groups",
+    "caps_before_whole_group_restoration": {
+      "normal": 20000,
+      "each_attack": 2000
+    },
+    "independence_limit": "Exact-input groups only; source release does not permit verified session, device or time isolation",
+    "config_sha256": "c290e1ea444290189048dfe6572584813550f00ca6554e841466d4c2ec50f424"
+  }
+}

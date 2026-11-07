@@ -1,0 +1,15 @@
+{
+  "version": "0.1.1",
+  "date": "2026-11-07",
+  "base_release": "matpv_core_repro_20261106 version 0.1.0",
+  "changes": [
+    "Numbered Chinese reproduction instructions",
+    "MIT for author code/documentation with explicit data/index exclusions",
+    "Third-party source notices",
+    "Preserve exact Git checkout bytes through .gitattributes"
+  ],
+  "algorithm_or_hyperparameter_changes": false,
+  "new_training": false,
+  "new_predictions": false,
+  "previous_software_checks": "software_checks.json describes base package software-only checks"
+}

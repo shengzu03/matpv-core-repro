@@ -1,0 +1,37 @@
+{
+  "version": "full-scale-TON-MATPV-fair-comparison-v1",
+  "date": "2026-10-31",
+  "authorization": "User requested full-data reruns of original model, retained MAT-PV and three published open-source comparators, before writing a manuscript.",
+  "dataset": "Current third-party TON-IoT mirror only, 211043 raw records ->93466 model-input/type representatives in71387 connection/input components. Other early datasets require separate label/schema/protocol auditing and are not silently pooled.",
+  "cleaning": "Frozen existing input/connection component index; retain ambiguous inputs with different labels within the same role. All93466 clean records assigned exactly one role, no test or difficult-row deletion.",
+  "seeds": [
+    2026103101,
+    2026103102,
+    2026103103,
+    2026103104,
+    2026103105
+  ],
+  "split": "Five paired random component partitions.20% components per dominant-class stratum form test. From remaining pure historical normal/XSS components allocate exactly2000 normal+100XSS calibration rows.80% remaining ordinary eligible components become source. Source excludes any component containing MITM or normal HTTP/SSL; historical scarce XSS/ransomware each capped20 source rows by whole-component random packing. All other components enter unlabeled target training pool. Realized row proportions differ because components remain intact. Rare-source caps restrict sampling; no claim of natural prevalence.",
+  "scope": "Full clean-record scale with scarce target supervision; not full-label supervised training. All source labels+same70 acquired target labels+shared2000normal/100XSS historical validation labels for every arm. Source/calibration labels are additional to70 and counts are reported. No actual FL claim.",
+  "acquisition": "Shared source-only balanced ExtraTrees300 teacher at full scale, historical-normal99% alarm threshold; five label-blind random component strata,8alarm+2nonalarm rows each, quota redistribution if needed:50labels. This common acquisition teacher replaces the old small-cohort MLP teacher; it is a disclosed scale adaptation of experimental data acquisition, not a new MAT-PV component. Then group-safe5fold corrected tree50 graph predicts pool. Select20 highest10class-entropy canonical actual rows from20 groups untouched by50, ties group/rawID/index. Freeze IDs before each oracle stage. Same70labels for all arms; no forcing of MITM discoveries or reselection after labels.",
+  "arms": [
+    "tree70",
+    "matpv",
+    "tabm_ce",
+    "tabm_balanced",
+    "modernnca_ce",
+    "modernnca_balanced",
+    "tabicl_v2"
+  ],
+  "MATPV": "Preserve final retained tree50+graph residual correction+Gaussian50 memory+binary RBF SVM70 additive MITM supplementation+pairwise RBF verification. ExtraTrees300 balanced,5groupOOF,10NNundirected row-normalized graph,alpha.8,50iterations,anchor-clamped,coefficient1simplex correction. Gaussian class covariance n/(n+1), pooledtask covariance remainder,+I; eta=max(0,max historicalXSS MITM-minus-original logGaussian score). BinarySVC C1gammaScale balanced,tol.001,maxiter200000,guard=max(0,maxmargin100historicalXSS). Pair heads MITMvsoriginalclass1..7 share binarygamma,balanced,C1,acceptmargin>0. Originalnormal/XSS/MITM and priorGaussianMITM masks preserved. No extra module/hyperparameter search. If acquired positives absent, record unsupported head and leave that component inactive; never manufacture positives.",
+  "baselines": "Same raw encoded feature table. Tree70 balanced ExtraTrees300. TabM and ModernNCA official pinned2025 source/configs reused read-only, both ordinaryCE and inverse-frequencyCE retained. All fitting rows retained. Max200epochs,patience20,earliest best10classmacroF1; group-safe20%withintraining validation plus the shared100historicalXSS guard rows for epoch selection. Fit-fold transforms only, then reset and refit all source+70 for selected epochs. TabICLv2 pinned2026checkpoint,8ensemble,alltrainingcontext,no target finetuning; external pretraining is extra resource, not compute-matched. No HPO reproduction/SOTA claim.",
+  "calibration": "Common historical-normal upper99% order statistic separately for each model; strictscore>threshold. Normalcalibration does not select deep epochs.100XSS guard labels shared:MATPV guards;deep comparators epoch validation;fixedtree/TabICL do not tune new parameters. This equalizes available labeled information, not algorithmic use. All thresholds frozen without test labels; no test-derived optimum or exact testFPR guarantee.",
+  "features": "15numeric signedlog1p+3categorical source-onlyOHE. No IP,port,payload,labels,time/shiftflags. Source-only median/IQRfloor.25 clipping[-10,10] forgraph/SVM/Gaussian; deep standardization trainonly withconstantcolumnremoval. Same observable inputs; method-appropriate transforms disclosed.",
+  "resource": "One process at a time;Edrive all new outputs/temp/caches;fixedCPUthread1;GPU3050Laptop4GB fordeep if synthetic full-shape preflight succeeds. Freeze hardware-only runtime plan before real predictions. No unreported row/context/ensemble reduction. TabICL officialrepr cache permitted for memory; save lean training context and fixed checkpoint reference rather than duplicated runtime cache. Failures retained and not replaced by smaller-data performance.",
+  "primary": "Mean of XSS and MITM subtype F1, per-class precision/subtypeRecall, binary attack-alarmRecall, normal FPR. Higher F1/precision/recall better;lowerFPR/time/memory better. Class8XSS and9MITM explicitly reported, all10class metrics/confusion retained. MacroF1 over10classes distinct from rareF1. Binary AP/ROC from1-Pnormal; composite has no invented subtype probabilities for hard SVM decisions.",
+  "efficiency": "Record preparation/acquisition/OOF/graph/head times, deep epochselection+refit and inference separately, fittedmodel size,paramcount,peakVRAM/RAM. Actual sequential test inference wallms/row is batch throughput including method-specific preprocessing, not guaranteed online single-flow latency. Hardware differs by algorithm and disclosed. TabICL context preparation is not SGD training or external pretraining time.",
+  "statistics": "All5paired fits mean±sampleSD and allpaired differences;five overlapping random splits of one reused mirror are not5independent datasets. No blanket significance/robustness claim from mean/std alone. No test-based choice ofCEvsbalanced or candidate winner. No promises of superiority,lowFPR,publication or novelty. Freeze all predictions before finaltestmetrics.",
+  "prior_exposure": "All mirror components have been used in prior development/evaluation by end20261030;newpartition is full-scale retrospective evaluation, not untouched blindtest or independent dataset confirmation.",
+  "stop": "Fixed7configs×5seeds; preserve failures, no model changes or new module search after outcomes. No manuscript writing in this task.",
+  "storage_drive": "E"
+}

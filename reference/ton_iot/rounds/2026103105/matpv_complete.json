@@ -1,0 +1,147 @@
+{
+  "utc": "2026-10-31T02:41:12.113191+00:00",
+  "times": {
+    "source_teacher_and_query50_seconds": 23.827999999994063,
+    "oof_and_tree50_seconds": 126.04700000000594,
+    "graph_seconds": 2.8910000000032596,
+    "graph_nodes": 24079,
+    "graph_edges": 301088,
+    "fold": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      0,
+      0,
+      3,
+      0,
+      1,
+      2,
+      3,
+      1,
+      0,
+      4,
+      2,
+      4,
+      1,
+      4,
+      4,
+      0,
+      1,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      3,
+      2,
+      3,
+      3,
+      3,
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      4,
+      3,
+      1,
+      4,
+      1,
+      0
+    ],
+    "query20_seconds": 0.5319999999919673,
+    "memory_and_svm_heads_seconds": 2.25
+  },
+  "inference_seconds": 3.547000000005937,
+  "inference_ms_per_row": 0.2145665718955863,
+  "model_bytes": 160065227,
+  "model_sha256": "d1cb38c59ed229826faba047fdb43c1cc4eea2ced48d7552e14f5bdd5e49881d",
+  "prediction_sha256": "f5b7ae5e60ce9646c17b855e9ba711eed16747fb1f1a55c92580f745756cc5fb",
+  "unsupported_gaussian": false,
+  "unsupported_svm": false,
+  "pair_audits": {
+    "1": {
+      "rows": 105,
+      "n_iter": [
+        31
+      ],
+      "support": [
+        13,
+        2
+      ]
+    },
+    "2": {
+      "rows": 7464,
+      "n_iter": [
+        95
+      ],
+      "support": [
+        82,
+        3
+      ]
+    },
+    "3": {
+      "rows": 4972,
+      "n_iter": [
+        264
+      ],
+      "support": [
+        256,
+        1
+      ]
+    },
+    "4": {
+      "rows": 12616,
+      "n_iter": [
+        340
+      ],
+      "support": [
+        332,
+        2
+      ]
+    },
+    "5": {
+      "rows": 9628,
+      "n_iter": [
+        159
+      ],
+      "support": [
+        119,
+        3
+      ]
+    },
+    "6": {
+      "rows": 9,
+      "n_iter": [
+        9
+      ],
+      "support": [
+        2,
+        4
+      ]
+    },
+    "7": {
+      "rows": 2846,
+      "n_iter": [
+        182
+      ],
+      "support": [
+        176,
+        1
+      ]
+    }
+  },
+  "threshold": 0.8666666666666667,
+  "eta": 13.326957987094914,
+  "svm_threshold": 1.3703155985696203,
+  "source_review_rows": 50826
+}

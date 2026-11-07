@@ -1,0 +1,164 @@
+{
+  "utc": "2026-11-02T09:56:38.390993+00:00",
+  "times": {
+    "source_teacher_and_query50_seconds": 9.094000000000051,
+    "oof_and_tree50_seconds": 52.34400000000005,
+    "graph_seconds": 0.125,
+    "graph_nodes": 3507,
+    "graph_edges": 46880,
+    "fold": [
+      3,
+      2,
+      3,
+      1,
+      0,
+      1,
+      4,
+      3,
+      1,
+      4,
+      0,
+      1,
+      2,
+      4,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      4,
+      1,
+      1,
+      3,
+      4,
+      2,
+      2,
+      3,
+      1,
+      3,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      2,
+      4,
+      4,
+      3,
+      2,
+      1,
+      2,
+      4,
+      4,
+      4,
+      3
+    ],
+    "query20_seconds": 0.07799999999997453,
+    "memory_and_svm_heads_seconds": 0.45299999999997453
+  },
+  "inference_seconds": 0.5459999999998217,
+  "inference_ms_per_row": 0.18212141427612466,
+  "model_bytes": 15354241,
+  "model_sha256": "47b192c0994bb8f924a60badac4e5e01e3ebe0afb5e545a8bd8d492e20624cfb",
+  "training_sha256": "b48ce6dd6f216d75b61b50111bb7696c71343d43471fb9a9369252bee1c8926e",
+  "prediction_sha256": "e0335dd7fda9411c3cb8c13c83a26bbbd3a2f84c2a5fff509c75494de7c34247",
+  "unsupported_gaussian": false,
+  "unsupported_svm": false,
+  "pair_audits": {
+    "1": {
+      "rows": 89,
+      "n_iter": [
+        37
+      ],
+      "support": [
+        4,
+        18
+      ]
+    },
+    "2": {
+      "rows": 75,
+      "n_iter": [
+        68
+      ],
+      "support": [
+        8,
+        25
+      ]
+    },
+    "3": {
+      "rows": 55,
+      "n_iter": [
+        57
+      ],
+      "support": [
+        3,
+        22
+      ]
+    },
+    "4": {
+      "rows": 100,
+      "n_iter": [
+        36
+      ],
+      "support": [
+        3,
+        16
+      ]
+    },
+    "5": {
+      "rows": 80,
+      "n_iter": [
+        37
+      ],
+      "support": [
+        3,
+        17
+      ]
+    },
+    "6": {
+      "rows": 177,
+      "n_iter": [
+        105
+      ],
+      "support": [
+        23,
+        23
+      ]
+    },
+    "7": {
+      "rows": 103,
+      "n_iter": [
+        65
+      ],
+      "support": [
+        7,
+        22
+      ]
+    }
+  },
+  "unsupported_gaussian_reason": null,
+  "unsupported_svm_reason": null,
+  "threshold": 0.17266374020265485,
+  "eta": 0.0,
+  "svm_threshold": 0.0,
+  "source_review_rows": 6455,
+  "guard_id": 8,
+  "focus_id": 9,
+  "classes": [
+    "normal",
+    "DOS_SYN_Hping",
+    "Metasploit_Brute_Force_SSH",
+    "NMAP_FIN_SCAN",
+    "NMAP_OS_DETECTION",
+    "NMAP_TCP_scan",
+    "NMAP_UDP_SCAN",
+    "NMAP_XMAS_TREE_SCAN",
+    "DDOS_Slowloris",
+    "ARP_poisioning"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "benchmark": "ton_iot",
+  "classes": [
+    "normal",
+    "backdoor",
+    "ddos",
+    "dos",
+    "injection",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss",
+    "mitm"
+  ],
+  "guard_id": 8,
+  "focus_id": 9,
+  "numeric_features": [
+    "duration",
+    "src_bytes",
+    "dst_bytes",
+    "missed_bytes",
+    "src_pkts",
+    "src_ip_bytes",
+    "dst_pkts",
+    "dst_ip_bytes",
+    "dns_qclass",
+    "dns_qtype",
+    "dns_rcode",
+    "http_trans_depth",
+    "http_request_body_len",
+    "http_response_body_len",
+    "http_status_code"
+  ],
+  "categorical_features": [
+    "proto",
+    "service",
+    "conn_state"
+  ],
+  "source_integrity": {
+    "original_dataset": "UNSW TON_IoT network",
+    "original_source_page": "https://research.unsw.edu.au/projects/toniot-datasets",
+    "retrieval": "third_party_Zenodo_research_mirror",
+    "zenodo_record": 21997233,
+    "zenodo_file_name": "TON_IoT Train_Test_Network.csv",
+    "published_checksum": "md5:e9c9e8a9c8595dcf85ae88fa12b838c2",
+    "verified_md5": "e9c9e8a9c8595dcf85ae88fa12b838c2",
+    "sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974",
+    "bytes": 29902775,
+    "canonical_UNSW_file_equality_not_independently_verified": true,
+    "model_outcomes_scored": false
+  },
+  "source_files": [
+    {
+      "relative_path": "TON_IoT Train_Test_Network.csv",
+      "sha256": "26ddc513552de36de6428b2e578efaed2b57504c716dfba847cc0109a64e1974"
+    }
+  ],
+  "class_names_cn": [
+    "正常",
+    "后门",
+    "分布式拒绝服务",
+    "拒绝服务",
+    "注入",
+    "口令攻击",
+    "勒索软件",
+    "扫描",
+    "跨站脚本",
+    "中间人"
+  ],
+  "seeds": [
+    2026103101,
+    2026103102,
+    2026103103,
+    2026103104,
+    2026103105
+  ],
+  "release_scope": "Core tree70 and matpv; historical seven-arm results included separately"
+}
