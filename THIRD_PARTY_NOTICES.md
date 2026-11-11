@@ -23,3 +23,5 @@ TabM、ModernNCA和TabICL仅保留历史实验记录与上游来源，不随本�
 metadata/ton_iot/flow_input_group_index.npz包含原行号、输入哈希、分组和类别type，不含流量特征。reference中的splits、query50、query20等包含重建同一划分所需元数据。这些数据派生材料不因根目录MIT许可证被重新授予数据使用权。
 
 TON官方来源与用途条件：https://research.unsw.edu.au/projects/toniot-datasets 。RT官方许可与引用信息：https://archive.ics.uci.edu/dataset/942/rt-iot2022 。CIC官方来源：https://www.unb.ca/cic/datasets/iotdataset-2023.html 。具体实际镜像及限制以数据来源文档为准。
+
+v0.2.0的audits/jisa_20261110新增由既有预测产生的研究输出、真实类别与对齐索引。数据来源和许可范围与上述队列一致，不上传原始流量特征或前人论文全文。literature目录仅保存作者撰写的比较与公开来源链接。

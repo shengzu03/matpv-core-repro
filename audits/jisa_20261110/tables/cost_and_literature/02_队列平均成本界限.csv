@@ -1,0 +1,5 @@
+﻿dataset,scope,paired_runs,sum_A_across_overlapping_runs,sum_F_across_overlapping_runs,lambda_primary_equal_run_per_record,lambda_primary_exact,lambda_secondary_equal_run_total,lambda_secondary_exact,all_five_strictly_improve_possible,lambda_all_five_strictly_improve_above,always_worse_runs,always_tied_runs
+TON,main,5,398,657,1.6624579031597022,5217570254165892369/3138467593224026344,1.650753768844221,657/398,True,3.2941176470588234,0,0
+RT,main,5,67,31,0.46276249561329175,835101957057/1804601636851,0.4626865671641791,31/67,True,1.2,0,0
+CIC39,main,5,64,157,2.451577674329511,66004406301979/26923236817300,2.453125,157/64,False,,2,1
+CIC46,diagnostic,5,5,31,6.2,31/5,6.2,31/5,False,,3,0

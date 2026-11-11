@@ -1,0 +1,133 @@
+{
+  "verified_on": "2026-11-10",
+  "search_scope": "bounded original-source verification of manuscript references 19 and 20, not exhaustive firstness search",
+  "sources": [
+    {
+      "id": "H",
+      "doi": "10.1038/s41598-026-72791-6",
+      "url": "https://www.nature.com/articles/s41598-026-72791-6",
+      "title": "HCE-Boost: hierarchy-constrained expert boosting for imbalanced multiclass intrusion detection",
+      "authors": [
+        "Renjia Zhang"
+      ],
+      "journal": "Scientific Reports",
+      "volume": "16",
+      "article": "35564",
+      "publication_date": "2026-09-22",
+      "version_of_record": "2026-10-29",
+      "verification": "publisher full text retrieved through exact-title search; implementation cross-check",
+      "evidence_locations": [
+        "Introduction contributions",
+        "Method: Module 1/2/3",
+        "Eq.6-7",
+        "Experimental design",
+        "Discussion"
+      ],
+      "code_url": "https://github.com/pengslin6/HCE-Boost/blob/main/hce_boost_detailed.py",
+      "code_functions": [
+        "activate_groups",
+        "minority_confusion_groups",
+        "redistribute",
+        "run_seed"
+      ]
+    },
+    {
+      "id": "P",
+      "doi": "10.3390/info17100988",
+      "url": "https://www.mdpi.com/2078-2489/17/10/988",
+      "title": "PS-CAHE: Protocol-Semantic and Confusion-Pair-Aware Fusion for UAV Intrusion Detection",
+      "authors": [
+        "Ting Ma",
+        "ZheXin Miao",
+        "Nongtian Chen",
+        "Peng Chen"
+      ],
+      "journal": "Information",
+      "volume": "17",
+      "issue": "10",
+      "year": "2026",
+      "article": "988",
+      "publication_date": "2026-10-07",
+      "verification": "publisher complete HTML; implementation not verified",
+      "evidence_locations": [
+        "3.1",
+        "3.3",
+        "3.4",
+        "4.1/Table 3",
+        "5.9/Table 14",
+        "6.2"
+      ]
+    }
+  ],
+  "matrix": [
+    {
+      "dimension": "源训练目标类覆盖",
+      "HCE_Boost": "全监督类别完整设定；未设源训练缺失目标类",
+      "PS_CAHE": "训练集覆盖全部五类；未设源训练缺失目标类",
+      "this_study": "目标类从源训练角色排除，再使用目标池追加标签",
+      "evidence": "H: Problem formulation; Module 1/2; P: 4.1/Table 3; O: main 3.1",
+      "claim_boundary": "支持与这两篇的设定差异；不是全球首个新类/少样本任务"
+    },
+    {
+      "dimension": "新增标签协议",
+      "HCE_Boost": "没有报告70条或50+20协议",
+      "PS_CAHE": "没有报告70条或50+20协议",
+      "this_study": "50+20分阶段追加；历史源标签和2100条验证标签另计",
+      "evidence": "H: Module 1/2; P: 3.1/4.1; O: main 3.1/3.2/4.2",
+      "claim_boundary": "必须称有限新增标注，不能称总监督只有70条"
+    },
+    {
+      "dimension": "局部机制",
+      "HCE_Boost": "验证混淆触发语义组或稀有吸收组专家",
+      "PS_CAHE": "OOF混淆选择类别对；类别条件的双模型概率融合",
+      "this_study": "预设f/g/C；图后记忆和二分类器顺序补认",
+      "evidence": "H: Module 2; P: 3.1/3.3/3.4; O: main 3.4-3.7",
+      "claim_boundary": "局部纠错/混淆对建模已有先例；PS不是二阶段专家路由"
+    },
+    {
+      "dimension": "输出约束",
+      "HCE_Boost": "每次组内更新保持该组当前概率总质量",
+      "PS_CAHE": "类别对和其余类各用一权重，归一化后全类argmax",
+      "this_study": "相对图阶段只允许C→f；保留0/g/f既有硬预测",
+      "evidence": "H: Module 3/Eq.6-7; P: 3.4; O: main 3.5-3.7 and archived prediction audit",
+      "claim_boundary": "概率质量约束与硬标签不变是不同性质，不能直接声称谁更安全"
+    },
+    {
+      "dimension": "报警与子类纠正区分",
+      "HCE_Boost": "已明确区分组检测和子类纠正；含Normal吸收组",
+      "PS_CAHE": "已分别审计Normal↔Attack与类别纠正",
+      "this_study": "审计报警内目标补认，相对图阶段不改变报警集合",
+      "evidence": "H: Introduction/Discussion; P: 5.9; O: archived 20-run audit",
+      "claim_boundary": "这种区分本身不能写成首次提出"
+    },
+    {
+      "dimension": "改对/改坏/错改错",
+      "HCE_Boost": "已检查全文，未见同型三项逐预测账本",
+      "PS_CAHE": "5.9/Table 14已给纠正、改坏及错换另一错",
+      "this_study": "本次将三项用于目标类单向补认并追溯错误来源",
+      "evidence": "H: Results/Discussion; P: 5.9/Table 14; O: prior A/B/C audit",
+      "claim_boundary": "账本本身不是新增算法或首创分析"
+    },
+    {
+      "dimension": "假设成本比界限",
+      "HCE_Boost": "本次全文核查未见同型成本比界限",
+      "PS_CAHE": "本次全文核查未见同型界限；已要求部署专属成本验证",
+      "this_study": "由存档A/B/C推导目标类二分类损失的回顾性界限",
+      "evidence": "H: Results/Discussion; P: 5.9/6.2; O: cost_analysis.json",
+      "claim_boundary": "可增加本稿解释深度；成本敏感分析不是新理论"
+    },
+    {
+      "dimension": "跨论文性能与实际效益",
+      "HCE_Boost": "协议与数据不同，不构成本文同预算对照",
+      "PS_CAHE": "协议与数据不同，不构成本文同预算对照",
+      "this_study": "仅对既有同信息主配置及指定阶段比较作结论",
+      "evidence": "H: Experimental design; P: 4; O: main 4/6.4",
+      "claim_boundary": "本次文献比较不证明本文更优或运维收益更大"
+    }
+  ],
+  "limitations": [
+    "No matched reimplementation or cross-paper performance ranking",
+    "Not reported is not proof of impossibility",
+    "No claim of globally first problem formulation or cost-sensitive theory"
+  ]
+}

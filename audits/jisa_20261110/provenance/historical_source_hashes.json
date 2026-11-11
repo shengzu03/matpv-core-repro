@@ -1,0 +1,1058 @@
+{
+  "original_analysis_date": "2026-11-10",
+  "original_manifest_sha256": "5f2e3ce14a7b1d410a3e9454e3b81eaef617b15c5e6b2a59e822dceeb6dd85ef",
+  "alignment": "Same seed and input row order established by frozen generation code, SHA checks and saved confusion matrix. Main prediction files do not carry their own test IDs.",
+  "historical_sources": [
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103101/matpv_complete.json",
+      "sha256_before": "542daf03cd5d943456109ed13d972474d58dea98c98824b17e8ea6f5e09dfa5d",
+      "bytes": 2380,
+      "sha256_after": "542daf03cd5d943456109ed13d972474d58dea98c98824b17e8ea6f5e09dfa5d",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103101/audit.json",
+      "sha256_before": "30c9d42675e4653a56ca81779156f2051044d1f9ceddb518cf38b53076271028",
+      "bytes": 1671,
+      "sha256_after": "30c9d42675e4653a56ca81779156f2051044d1f9ceddb518cf38b53076271028",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103101/matpv_predictions.npz",
+      "sha256_before": "119baf863a8b6dec68ccf36b1f8ac7a135811e47ff53872826297cbe8087849a",
+      "bytes": 221295,
+      "sha256_after": "119baf863a8b6dec68ccf36b1f8ac7a135811e47ff53872826297cbe8087849a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103101/features.npz",
+      "sha256_before": "13967f3c1f57236f0e18c786900867c3128315f5d9919b07aac65d4cd4012b71",
+      "bytes": 1973615,
+      "sha256_after": "13967f3c1f57236f0e18c786900867c3128315f5d9919b07aac65d4cd4012b71",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103101/oracle_labels.npz",
+      "sha256_before": "0f5f069ff0b6f2d176f54c4f4ca180831a628a2327364d230651b1a4fe13b518",
+      "bytes": 1489,
+      "sha256_after": "0f5f069ff0b6f2d176f54c4f4ca180831a628a2327364d230651b1a4fe13b518",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103101/results.json",
+      "sha256_before": "c4e060a6ebd5eaffd1860ccaa0468266772024db62b115a1d9e99b391403b326",
+      "bytes": 25497,
+      "sha256_after": "c4e060a6ebd5eaffd1860ccaa0468266772024db62b115a1d9e99b391403b326",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103101/label_budget.json",
+      "sha256_before": "c566822b76a891e9c83ad0f8126838b5567e8ab3af2104020c549b172855d1c3",
+      "bytes": 593,
+      "sha256_after": "c566822b76a891e9c83ad0f8126838b5567e8ab3af2104020c549b172855d1c3",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103101/complete.json",
+      "sha256_before": "7f798cd9e3fe0aeb2bf6b4d26590ba9c35ee9f57f1809c7c0ea38f02124a9f82",
+      "bytes": 628,
+      "sha256_after": "7f798cd9e3fe0aeb2bf6b4d26590ba9c35ee9f57f1809c7c0ea38f02124a9f82",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103101/predictions.npz",
+      "sha256_before": "88d70b010e9eee06a99213dc51ea74659d9bc87a1b32c1811a94a19948e18637",
+      "bytes": 102319,
+      "sha256_after": "88d70b010e9eee06a99213dc51ea74659d9bc87a1b32c1811a94a19948e18637",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103102/matpv_complete.json",
+      "sha256_before": "9139d9e1870090efa7caa86194a720d57265fb5e2675fa2a213323f095b03be6",
+      "bytes": 2354,
+      "sha256_after": "9139d9e1870090efa7caa86194a720d57265fb5e2675fa2a213323f095b03be6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103102/audit.json",
+      "sha256_before": "fca3d8d57b8b97d0381caf59a3fc62fa08f66d087dafeaa65db869014612e4f9",
+      "bytes": 1671,
+      "sha256_after": "fca3d8d57b8b97d0381caf59a3fc62fa08f66d087dafeaa65db869014612e4f9",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103102/matpv_predictions.npz",
+      "sha256_before": "eb14669312835b499225f3f2750796eecd7cb2be315bcf3ff7cc6a16c7fae360",
+      "bytes": 199087,
+      "sha256_after": "eb14669312835b499225f3f2750796eecd7cb2be315bcf3ff7cc6a16c7fae360",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103102/features.npz",
+      "sha256_before": "46652c8c58ba459d83393ccf2c3545220509544c70497a2c7a64901f30f198ee",
+      "bytes": 1973362,
+      "sha256_after": "46652c8c58ba459d83393ccf2c3545220509544c70497a2c7a64901f30f198ee",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103102/oracle_labels.npz",
+      "sha256_before": "a147b11bf9c4811c7f4b29514e1fbb571fd9ddba1074fcd5ea69381a81e4af9a",
+      "bytes": 1545,
+      "sha256_after": "a147b11bf9c4811c7f4b29514e1fbb571fd9ddba1074fcd5ea69381a81e4af9a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103102/results.json",
+      "sha256_before": "c4331d524bd37465bfb190b8b331a55e4b7c62284b65357f5d8086fc6d81bd52",
+      "bytes": 25430,
+      "sha256_after": "c4331d524bd37465bfb190b8b331a55e4b7c62284b65357f5d8086fc6d81bd52",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103102/label_budget.json",
+      "sha256_before": "bf286a3683b331f1eea4ecec5a60d148a4d68a7887b79c88c83b3ba931501ad9",
+      "bytes": 593,
+      "sha256_after": "bf286a3683b331f1eea4ecec5a60d148a4d68a7887b79c88c83b3ba931501ad9",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103102/complete.json",
+      "sha256_before": "30b6917b4d02fdf8bc0013d6c26ce8003a8fdfd1b62b827e9cfd987944e2eded",
+      "bytes": 628,
+      "sha256_after": "30b6917b4d02fdf8bc0013d6c26ce8003a8fdfd1b62b827e9cfd987944e2eded",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103102/predictions.npz",
+      "sha256_before": "619f8df31ee0c06bf452ca4dc00608134cab97423390d368391aface5a9e6510",
+      "bytes": 94571,
+      "sha256_after": "619f8df31ee0c06bf452ca4dc00608134cab97423390d368391aface5a9e6510",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103103/matpv_complete.json",
+      "sha256_before": "bae1437b5b4d6988447c172b216160e65c33da62056a16ca8bef0b0990c02ed4",
+      "bytes": 2342,
+      "sha256_after": "bae1437b5b4d6988447c172b216160e65c33da62056a16ca8bef0b0990c02ed4",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103103/audit.json",
+      "sha256_before": "8d04684c72f31520f10440329e37caa4acbe49416b072c16b4b1d00725d81fc3",
+      "bytes": 1672,
+      "sha256_after": "8d04684c72f31520f10440329e37caa4acbe49416b072c16b4b1d00725d81fc3",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103103/matpv_predictions.npz",
+      "sha256_before": "d5115e74dc2b33343e4926fe045d4f1bc214e30c81e46d62c80f81a4408ae22a",
+      "bytes": 182684,
+      "sha256_after": "d5115e74dc2b33343e4926fe045d4f1bc214e30c81e46d62c80f81a4408ae22a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103103/features.npz",
+      "sha256_before": "1c41258f7489fbb18a1897df124985231b26613f880c0b5e9bd91a0d4921cf3a",
+      "bytes": 1973552,
+      "sha256_after": "1c41258f7489fbb18a1897df124985231b26613f880c0b5e9bd91a0d4921cf3a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103103/oracle_labels.npz",
+      "sha256_before": "f76c1485f7215433914d9d3aa5a4de84c51996e043fa071b039b2f456c47a3e3",
+      "bytes": 1528,
+      "sha256_after": "f76c1485f7215433914d9d3aa5a4de84c51996e043fa071b039b2f456c47a3e3",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103103/results.json",
+      "sha256_before": "6ecbfd98cb20b859334d7f753564a5a0218c29bfe073b4107c1704bb4dc79ed6",
+      "bytes": 25283,
+      "sha256_after": "6ecbfd98cb20b859334d7f753564a5a0218c29bfe073b4107c1704bb4dc79ed6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103103/label_budget.json",
+      "sha256_before": "025d7ad9bcde930ef322ae17a49a7d9b80d8d0adee0f272c399d3b4adc89c107",
+      "bytes": 593,
+      "sha256_after": "025d7ad9bcde930ef322ae17a49a7d9b80d8d0adee0f272c399d3b4adc89c107",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103103/complete.json",
+      "sha256_before": "4dfc1c14fd2c0049cc0c7a26bdb4bc7b61105d0c2035df199fa3ff008d98c1d0",
+      "bytes": 628,
+      "sha256_after": "4dfc1c14fd2c0049cc0c7a26bdb4bc7b61105d0c2035df199fa3ff008d98c1d0",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103103/predictions.npz",
+      "sha256_before": "06e89e49d1eead977135a30366d9b5f5d2a073762688eac31303d778d6eef1da",
+      "bytes": 90845,
+      "sha256_after": "06e89e49d1eead977135a30366d9b5f5d2a073762688eac31303d778d6eef1da",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103104/matpv_complete.json",
+      "sha256_before": "cdf8d48d0b094b528981808d8e05012faa5265d47f6dae6a3a9038b452691a47",
+      "bytes": 2350,
+      "sha256_after": "cdf8d48d0b094b528981808d8e05012faa5265d47f6dae6a3a9038b452691a47",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103104/audit.json",
+      "sha256_before": "88c18c6b67bd10bfa5ff7c5e5398c5dd13732fe03ecf00c097552f9ddb383bd0",
+      "bytes": 1671,
+      "sha256_after": "88c18c6b67bd10bfa5ff7c5e5398c5dd13732fe03ecf00c097552f9ddb383bd0",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103104/matpv_predictions.npz",
+      "sha256_before": "2049251fe2c5d4ae0fe8c200b4cb5edf6a81e56176ced9891c8ecca267b950db",
+      "bytes": 203456,
+      "sha256_after": "2049251fe2c5d4ae0fe8c200b4cb5edf6a81e56176ced9891c8ecca267b950db",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103104/features.npz",
+      "sha256_before": "93f088162cea476e844fddee5c545a42baa756b3a585de3df2af49a6935084b1",
+      "bytes": 1974263,
+      "sha256_after": "93f088162cea476e844fddee5c545a42baa756b3a585de3df2af49a6935084b1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103104/oracle_labels.npz",
+      "sha256_before": "58ace1f97b8bb18a8922417a9d94f0bd587372b2731ff89a0cfdd8685aa21c95",
+      "bytes": 1491,
+      "sha256_after": "58ace1f97b8bb18a8922417a9d94f0bd587372b2731ff89a0cfdd8685aa21c95",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103104/results.json",
+      "sha256_before": "1a33c701cd2dbdb8d3201cb42884e117227dc21b9f94aec97e8166bb4cdd54ef",
+      "bytes": 25529,
+      "sha256_after": "1a33c701cd2dbdb8d3201cb42884e117227dc21b9f94aec97e8166bb4cdd54ef",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103104/label_budget.json",
+      "sha256_before": "af6762cd0abf8eed823e2da59abe6eefd6c157cac2cbfce7126be78fa516c0e1",
+      "bytes": 594,
+      "sha256_after": "af6762cd0abf8eed823e2da59abe6eefd6c157cac2cbfce7126be78fa516c0e1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103104/complete.json",
+      "sha256_before": "b52289f87ceffb43d73720e1452a3857ed7888c54f7eedf22067e552f3f4f6cd",
+      "bytes": 628,
+      "sha256_after": "b52289f87ceffb43d73720e1452a3857ed7888c54f7eedf22067e552f3f4f6cd",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103104/predictions.npz",
+      "sha256_before": "16818b6d29a6c9fba9fa119bdce932bc3f7cf593eccf8515877c3543b1db5fb6",
+      "bytes": 89899,
+      "sha256_after": "16818b6d29a6c9fba9fa119bdce932bc3f7cf593eccf8515877c3543b1db5fb6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103105/matpv_complete.json",
+      "sha256_before": "ba67d51db59483e22b3ecdae466878153d6d004f938a65a0c770a6ac6400ad39",
+      "bytes": 2362,
+      "sha256_after": "ba67d51db59483e22b3ecdae466878153d6d004f938a65a0c770a6ac6400ad39",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103105/audit.json",
+      "sha256_before": "f26e6125099333ce9a21eb98081dea497b10bc5db3ac09f208c3119925959adf",
+      "bytes": 1671,
+      "sha256_after": "f26e6125099333ce9a21eb98081dea497b10bc5db3ac09f208c3119925959adf",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103105/matpv_predictions.npz",
+      "sha256_before": "f5b7ae5e60ce9646c17b855e9ba711eed16747fb1f1a55c92580f745756cc5fb",
+      "bytes": 169471,
+      "sha256_after": "f5b7ae5e60ce9646c17b855e9ba711eed16747fb1f1a55c92580f745756cc5fb",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103105/features.npz",
+      "sha256_before": "a1932b4fecade8bd46f4add23e6d176f8e816e066ebfdbf2817e683c01b3f45b",
+      "bytes": 1974364,
+      "sha256_after": "a1932b4fecade8bd46f4add23e6d176f8e816e066ebfdbf2817e683c01b3f45b",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/inputs/2026103105/oracle_labels.npz",
+      "sha256_before": "0d58942bd22245b23bcd9a214bd8ecb35a8cb7341134d20a042ff27aeb7861e1",
+      "bytes": 1528,
+      "sha256_after": "0d58942bd22245b23bcd9a214bd8ecb35a8cb7341134d20a042ff27aeb7861e1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103105/results.json",
+      "sha256_before": "404a1833b7b991e19a8a0ab0e95eac34c09c59fb5ec90e953451b5b466d1bc97",
+      "bytes": 24305,
+      "sha256_after": "404a1833b7b991e19a8a0ab0e95eac34c09c59fb5ec90e953451b5b466d1bc97",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "full_scale_matpv_comparison_20261031/outputs/2026103105/label_budget.json",
+      "sha256_before": "f69882d600978ae9d86025493335a83c8fb3d48b54e104e99878c48d93cd130d",
+      "bytes": 591,
+      "sha256_after": "f69882d600978ae9d86025493335a83c8fb3d48b54e104e99878c48d93cd130d",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103105/complete.json",
+      "sha256_before": "f527b0e5c4be210defbc65b17a1fceb29b0f5492369bb607b2698b3f8f400b51",
+      "bytes": 628,
+      "sha256_after": "f527b0e5c4be210defbc65b17a1fceb29b0f5492369bb607b2698b3f8f400b51",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "pairwise_evidence_20261103/outputs/2026103105/predictions.npz",
+      "sha256_before": "68d4608cd17322dfc045dcacc6a8c0d5de722425fe874b2da57b4d6877bddbc3",
+      "bytes": 89003,
+      "sha256_after": "68d4608cd17322dfc045dcacc6a8c0d5de722425fe874b2da57b4d6877bddbc3",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110201/matpv_complete.json",
+      "sha256_before": "f06fbf86c458197da23a25ec46b02eac007caf1ba61cacf522b843c237a000f5",
+      "bytes": 2808,
+      "sha256_after": "f06fbf86c458197da23a25ec46b02eac007caf1ba61cacf522b843c237a000f5",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110201/audit.json",
+      "sha256_before": "75e4b91b1c67f46c6ec05ef6724a3cb7071846043375f0a9296eeb4ddb5591b1",
+      "bytes": 1511,
+      "sha256_after": "75e4b91b1c67f46c6ec05ef6724a3cb7071846043375f0a9296eeb4ddb5591b1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110201/matpv_predictions.npz",
+      "sha256_before": "39f6b6d12183725166a4a9ad671accb4a240e5347ae0b2d25ae9ee35789d734d",
+      "bytes": 79595,
+      "sha256_after": "39f6b6d12183725166a4a9ad671accb4a240e5347ae0b2d25ae9ee35789d734d",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110201/features.npz",
+      "sha256_before": "85bc43ba2a0b888c2515b7aca6e739b943160b07a22410759810a292e1f3700b",
+      "bytes": 1777254,
+      "sha256_after": "85bc43ba2a0b888c2515b7aca6e739b943160b07a22410759810a292e1f3700b",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110201/oracle_labels.npz",
+      "sha256_before": "ee4ce7ef36247f26778ae3d8972e56e1c851efc3f12b2a8ce8dff2ca63681101",
+      "bytes": 2605,
+      "sha256_after": "ee4ce7ef36247f26778ae3d8972e56e1c851efc3f12b2a8ce8dff2ca63681101",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110201/results.json",
+      "sha256_before": "a4ba3c77d2e9528f399b867538804bbf78ffed4cfbd8dd99e7af46f97f543ebe",
+      "bytes": 33063,
+      "sha256_after": "a4ba3c77d2e9528f399b867538804bbf78ffed4cfbd8dd99e7af46f97f543ebe",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110201/label_budget.json",
+      "sha256_before": "11663e16eb31aa9551ec5c203286b84f97643e04acd9ca1603f1663bfed37204",
+      "bytes": 865,
+      "sha256_after": "11663e16eb31aa9551ec5c203286b84f97643e04acd9ca1603f1663bfed37204",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110202/matpv_complete.json",
+      "sha256_before": "c9dca5688f9ab2baeca3dcabf061fee32a62d2abd71093fd46767c1b469766ca",
+      "bytes": 2778,
+      "sha256_after": "c9dca5688f9ab2baeca3dcabf061fee32a62d2abd71093fd46767c1b469766ca",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110202/audit.json",
+      "sha256_before": "de673682809495eef560254d32dce633199a4c5e48d56adec3488f282815427a",
+      "bytes": 1511,
+      "sha256_after": "de673682809495eef560254d32dce633199a4c5e48d56adec3488f282815427a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110202/matpv_predictions.npz",
+      "sha256_before": "35faef6bb3e894ad775f2324122ab0b7466d514fca82b5b1dd1c2b3595148505",
+      "bytes": 74111,
+      "sha256_after": "35faef6bb3e894ad775f2324122ab0b7466d514fca82b5b1dd1c2b3595148505",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110202/features.npz",
+      "sha256_before": "2a31af83149148b8cdb657032d33121c4dedb9e60fa0b2965b4fc47768ba0acc",
+      "bytes": 1778049,
+      "sha256_after": "2a31af83149148b8cdb657032d33121c4dedb9e60fa0b2965b4fc47768ba0acc",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110202/oracle_labels.npz",
+      "sha256_before": "ef7eb16dc4e3fc53fafc6c38e09ea5aac7f08683dc701ac67b9bc29c342541a7",
+      "bytes": 2655,
+      "sha256_after": "ef7eb16dc4e3fc53fafc6c38e09ea5aac7f08683dc701ac67b9bc29c342541a7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110202/results.json",
+      "sha256_before": "a483b7c68f7dce81811ba09b49d12bcc331e782e3aff1bba66d586d61b88680e",
+      "bytes": 33172,
+      "sha256_after": "a483b7c68f7dce81811ba09b49d12bcc331e782e3aff1bba66d586d61b88680e",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110202/label_budget.json",
+      "sha256_before": "8f5184b9f8f4073a2902791a8055ca24132cfc1e156130dc27c18266ab5f98de",
+      "bytes": 865,
+      "sha256_after": "8f5184b9f8f4073a2902791a8055ca24132cfc1e156130dc27c18266ab5f98de",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110203/matpv_complete.json",
+      "sha256_before": "ea5d0d162f17ee9a17dd7c140f948e62d0f0f7193c0f4ea7c80e808b71361fed",
+      "bytes": 2775,
+      "sha256_after": "ea5d0d162f17ee9a17dd7c140f948e62d0f0f7193c0f4ea7c80e808b71361fed",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110203/audit.json",
+      "sha256_before": "da8f28db299286b4d917be4b0ddab922e16584e4c1f99dc625d42a5941bb8df1",
+      "bytes": 1511,
+      "sha256_after": "da8f28db299286b4d917be4b0ddab922e16584e4c1f99dc625d42a5941bb8df1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110203/matpv_predictions.npz",
+      "sha256_before": "75a3cb61fce656c5148cddbde999338093ab7eaae23cd5acb03572883847caf7",
+      "bytes": 64765,
+      "sha256_after": "75a3cb61fce656c5148cddbde999338093ab7eaae23cd5acb03572883847caf7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110203/features.npz",
+      "sha256_before": "ce545fefd621ee7da6d1588545ba0481555d7e08343ae12a466ce38b83c7b6a5",
+      "bytes": 1776844,
+      "sha256_after": "ce545fefd621ee7da6d1588545ba0481555d7e08343ae12a466ce38b83c7b6a5",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110203/oracle_labels.npz",
+      "sha256_before": "4fda9f76e89fa41eeb6004de79bfe1ec3e99b17c78369f86c86270a48d2ba573",
+      "bytes": 2621,
+      "sha256_after": "4fda9f76e89fa41eeb6004de79bfe1ec3e99b17c78369f86c86270a48d2ba573",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110203/results.json",
+      "sha256_before": "0d475a1cea9e2b9541f8b8e01ea6c5a133f99624bdc6a76a8a99c256cac0807b",
+      "bytes": 33246,
+      "sha256_after": "0d475a1cea9e2b9541f8b8e01ea6c5a133f99624bdc6a76a8a99c256cac0807b",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110203/label_budget.json",
+      "sha256_before": "ebc10877cee343622bdd48ab5f0399c68411bd185ef93dd2b27e3a92458f1d58",
+      "bytes": 866,
+      "sha256_after": "ebc10877cee343622bdd48ab5f0399c68411bd185ef93dd2b27e3a92458f1d58",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110204/matpv_complete.json",
+      "sha256_before": "9c9276f6f02af654562e3f33469881a62b7420d4fca13907ea28e323e8f5892a",
+      "bytes": 2776,
+      "sha256_after": "9c9276f6f02af654562e3f33469881a62b7420d4fca13907ea28e323e8f5892a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110204/audit.json",
+      "sha256_before": "05b1a1b4bdd678e14f9cf6adb71d1f6c8512f38f6e32f21ca028c3042c2eab00",
+      "bytes": 1511,
+      "sha256_after": "05b1a1b4bdd678e14f9cf6adb71d1f6c8512f38f6e32f21ca028c3042c2eab00",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110204/matpv_predictions.npz",
+      "sha256_before": "9da750c513e73684ef54276cc52a6bb4a1f181ce52d11dc5790d1b6370745099",
+      "bytes": 51586,
+      "sha256_after": "9da750c513e73684ef54276cc52a6bb4a1f181ce52d11dc5790d1b6370745099",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110204/features.npz",
+      "sha256_before": "9c07f8e795deddd7f63ac227e8e851ca28329bc05fa1f797f4092af56cd362ff",
+      "bytes": 1776523,
+      "sha256_after": "9c07f8e795deddd7f63ac227e8e851ca28329bc05fa1f797f4092af56cd362ff",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110204/oracle_labels.npz",
+      "sha256_before": "91737247e4d3dfb64f699d5ec16cbb9ebb8d3af91d12ecc8369433ff5c7d43de",
+      "bytes": 2629,
+      "sha256_after": "91737247e4d3dfb64f699d5ec16cbb9ebb8d3af91d12ecc8369433ff5c7d43de",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110204/results.json",
+      "sha256_before": "345e43e7a4924665b17e3d2bbc00d670fb2081600e12f99e62e74d75ddfff36a",
+      "bytes": 33094,
+      "sha256_after": "345e43e7a4924665b17e3d2bbc00d670fb2081600e12f99e62e74d75ddfff36a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110204/label_budget.json",
+      "sha256_before": "b95855f6165ebf1d4488642cdee937dfa3cb19bf618fca7fc63e49c021fea200",
+      "bytes": 866,
+      "sha256_after": "b95855f6165ebf1d4488642cdee937dfa3cb19bf618fca7fc63e49c021fea200",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110205/matpv_complete.json",
+      "sha256_before": "c526a34149e94da600e5ab0d2bb5eced960f750b5507d13c04f4caaa330b419b",
+      "bytes": 2780,
+      "sha256_after": "c526a34149e94da600e5ab0d2bb5eced960f750b5507d13c04f4caaa330b419b",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110205/audit.json",
+      "sha256_before": "08cebc98e9c92c532c0567bbde14b4ca01a5ec3a59862e64fe8fe887b6a68592",
+      "bytes": 1511,
+      "sha256_after": "08cebc98e9c92c532c0567bbde14b4ca01a5ec3a59862e64fe8fe887b6a68592",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110205/matpv_predictions.npz",
+      "sha256_before": "e0335dd7fda9411c3cb8c13c83a26bbbd3a2f84c2a5fff509c75494de7c34247",
+      "bytes": 77987,
+      "sha256_after": "e0335dd7fda9411c3cb8c13c83a26bbbd3a2f84c2a5fff509c75494de7c34247",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110205/features.npz",
+      "sha256_before": "3c7737222d7fddbf4551733594f33399c7428a48676133c0786d04ed199d077b",
+      "bytes": 1777050,
+      "sha256_after": "3c7737222d7fddbf4551733594f33399c7428a48676133c0786d04ed199d077b",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/inputs/2026110205/oracle_labels.npz",
+      "sha256_before": "b6b28a5a716c21c4be2cf7bc34427a21cece0f33d0e95e438ab090443178b499",
+      "bytes": 2643,
+      "sha256_after": "b6b28a5a716c21c4be2cf7bc34427a21cece0f33d0e95e438ab090443178b499",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110205/results.json",
+      "sha256_before": "b0000b7b08132289efa002d6c66a5c8a32499ecdf3ea66fa69d482d3e6e4c7a3",
+      "bytes": 32977,
+      "sha256_after": "b0000b7b08132289efa002d6c66a5c8a32499ecdf3ea66fa69d482d3e6e4c7a3",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/rt_iot2022/outputs/2026110205/label_budget.json",
+      "sha256_before": "91c3c95f58ef16162f062af9582b80711865177b04c9b2b4479a191897b969f2",
+      "bytes": 865,
+      "sha256_after": "91c3c95f58ef16162f062af9582b80711865177b04c9b2b4479a191897b969f2",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110201/matpv_complete.json",
+      "sha256_before": "3c79f5cafc422c8c0edd6328de0bad7f26f0b29d60837f95b7fc26b4f3df68f4",
+      "bytes": 6664,
+      "sha256_after": "3c79f5cafc422c8c0edd6328de0bad7f26f0b29d60837f95b7fc26b4f3df68f4",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110201/audit.json",
+      "sha256_before": "c29e60229886c3fca516b35668cb2659395cd3dd0b5408bbf2ec6aaa907d2adb",
+      "bytes": 2842,
+      "sha256_after": "c29e60229886c3fca516b35668cb2659395cd3dd0b5408bbf2ec6aaa907d2adb",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110201/matpv_predictions.npz",
+      "sha256_before": "98589972176f53177180b3607ea7a7484c92041ee91aa5efcf1cbcb507bbfe63",
+      "bytes": 1280696,
+      "sha256_after": "98589972176f53177180b3607ea7a7484c92041ee91aa5efcf1cbcb507bbfe63",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110201/features.npz",
+      "sha256_before": "d355bb56eec65e6be1f87a11861cc185c82a7d18e08b89ee6fc2a5a9293659be",
+      "bytes": 5777078,
+      "sha256_after": "d355bb56eec65e6be1f87a11861cc185c82a7d18e08b89ee6fc2a5a9293659be",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110201/oracle_labels.npz",
+      "sha256_before": "8830c79e18fb04d29841c760b6355cf506d55367ab6f6bca782364c72297a34f",
+      "bytes": 44839,
+      "sha256_after": "8830c79e18fb04d29841c760b6355cf506d55367ab6f6bca782364c72297a34f",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110201/results.json",
+      "sha256_before": "95fc745f28aa41bff07c1b119a6e40d3066e975b51862a4b48142b95306d1435",
+      "bytes": 157354,
+      "sha256_after": "95fc745f28aa41bff07c1b119a6e40d3066e975b51862a4b48142b95306d1435",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110201/label_budget.json",
+      "sha256_before": "ae7d5432a8ee8ccdfab9e35ba11212ad540004582980e4e153965b60873dc6eb",
+      "bytes": 2085,
+      "sha256_after": "ae7d5432a8ee8ccdfab9e35ba11212ad540004582980e4e153965b60873dc6eb",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110202/matpv_complete.json",
+      "sha256_before": "e5e7a32dc839b59fd0d9f813fce900bab3f3c7161afdda3c48251cfb01eed5b2",
+      "bytes": 2517,
+      "sha256_after": "e5e7a32dc839b59fd0d9f813fce900bab3f3c7161afdda3c48251cfb01eed5b2",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110202/audit.json",
+      "sha256_before": "372c64a8dae162602654f7aa4a8a68dec09af7504df0de21c91e3c74f0a15250",
+      "bytes": 2842,
+      "sha256_after": "372c64a8dae162602654f7aa4a8a68dec09af7504df0de21c91e3c74f0a15250",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110202/matpv_predictions.npz",
+      "sha256_before": "cc8e83c8c2e112cd6b26793c35356da8151d252496c8dfbd39fbd7de4d3b0c23",
+      "bytes": 1249452,
+      "sha256_after": "cc8e83c8c2e112cd6b26793c35356da8151d252496c8dfbd39fbd7de4d3b0c23",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110202/features.npz",
+      "sha256_before": "643a79f2fbd259d67701f2d24f649630bdfb089004fceb27f74f21d52dd62df7",
+      "bytes": 5777384,
+      "sha256_after": "643a79f2fbd259d67701f2d24f649630bdfb089004fceb27f74f21d52dd62df7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110202/oracle_labels.npz",
+      "sha256_before": "ace05eb8b8b93b6107ae6f4e655eafedd36c1546fcd1f76aeda37e6a95ce6bfd",
+      "bytes": 44878,
+      "sha256_after": "ace05eb8b8b93b6107ae6f4e655eafedd36c1546fcd1f76aeda37e6a95ce6bfd",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110202/results.json",
+      "sha256_before": "9ffa6755e43a6dbe22ab36c4154335bb1a84a4fa5250f2eac12ac57a7055b962",
+      "bytes": 156406,
+      "sha256_after": "9ffa6755e43a6dbe22ab36c4154335bb1a84a4fa5250f2eac12ac57a7055b962",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110202/label_budget.json",
+      "sha256_before": "8b9daa5ec47a767a83a13f15beb5fc418b264ebbded5fcbc69d688f60b8598b6",
+      "bytes": 2085,
+      "sha256_after": "8b9daa5ec47a767a83a13f15beb5fc418b264ebbded5fcbc69d688f60b8598b6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110203/matpv_complete.json",
+      "sha256_before": "bf2b3dfdf1a44a2a90b1568456c741c5f839e0a1e23d111db146efbadc550936",
+      "bytes": 6653,
+      "sha256_after": "bf2b3dfdf1a44a2a90b1568456c741c5f839e0a1e23d111db146efbadc550936",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110203/audit.json",
+      "sha256_before": "775c8915027702988637b7801e454498306e6871a3ff2523f603d785e76bee67",
+      "bytes": 2842,
+      "sha256_after": "775c8915027702988637b7801e454498306e6871a3ff2523f603d785e76bee67",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110203/matpv_predictions.npz",
+      "sha256_before": "4c9cdf59918d80ce31b57365f6982ae8bedc5ddc43c0e42d47835be65c00add7",
+      "bytes": 1248938,
+      "sha256_after": "4c9cdf59918d80ce31b57365f6982ae8bedc5ddc43c0e42d47835be65c00add7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110203/features.npz",
+      "sha256_before": "820fd553dcb894b51522944d5645319d9f9761f26e8b79508b045b7595295344",
+      "bytes": 5779072,
+      "sha256_after": "820fd553dcb894b51522944d5645319d9f9761f26e8b79508b045b7595295344",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110203/oracle_labels.npz",
+      "sha256_before": "2292512aa0673e6194ed0fc1cd480161c136ba5f1fd8fdfafeaab7469ea49d12",
+      "bytes": 44830,
+      "sha256_after": "2292512aa0673e6194ed0fc1cd480161c136ba5f1fd8fdfafeaab7469ea49d12",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110203/results.json",
+      "sha256_before": "bb398b0e6e618e2f75d8ab254d0fc908d55bfe5fbd70e332fba78ddd17204292",
+      "bytes": 157058,
+      "sha256_after": "bb398b0e6e618e2f75d8ab254d0fc908d55bfe5fbd70e332fba78ddd17204292",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110203/label_budget.json",
+      "sha256_before": "33b195f319cd253acd353f2b2c5bd440d94d69d3e6ee2afe35ce6567c29c3795",
+      "bytes": 2085,
+      "sha256_after": "33b195f319cd253acd353f2b2c5bd440d94d69d3e6ee2afe35ce6567c29c3795",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110204/matpv_complete.json",
+      "sha256_before": "573bc893d01b996dbfad3d315c1a0135ebf97d0719b6464f6e6b9cccdb0f6487",
+      "bytes": 6678,
+      "sha256_after": "573bc893d01b996dbfad3d315c1a0135ebf97d0719b6464f6e6b9cccdb0f6487",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110204/audit.json",
+      "sha256_before": "7e4787793c92da9529e4d6826f2313b4e7aa5e4aeb97d5a2aa388fa74f1db4e6",
+      "bytes": 2842,
+      "sha256_after": "7e4787793c92da9529e4d6826f2313b4e7aa5e4aeb97d5a2aa388fa74f1db4e6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110204/matpv_predictions.npz",
+      "sha256_before": "39320f40393264a3332ed9f1569009bac2e85574a8b136122bfad8358e4e4c93",
+      "bytes": 1205448,
+      "sha256_after": "39320f40393264a3332ed9f1569009bac2e85574a8b136122bfad8358e4e4c93",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110204/features.npz",
+      "sha256_before": "93f829ee6c13f33dda01f986ec935cd36142b4daff6a131129eacc88d8c70b91",
+      "bytes": 5778222,
+      "sha256_after": "93f829ee6c13f33dda01f986ec935cd36142b4daff6a131129eacc88d8c70b91",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110204/oracle_labels.npz",
+      "sha256_before": "46ebdc03dbd9c2b391edcea17fc0d4aed4c0f65b0073725da4896b861abfee4c",
+      "bytes": 44843,
+      "sha256_after": "46ebdc03dbd9c2b391edcea17fc0d4aed4c0f65b0073725da4896b861abfee4c",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110204/results.json",
+      "sha256_before": "ba5a23897967021d08b6d782825215a9d416870170a910a095088b7f036559d7",
+      "bytes": 157280,
+      "sha256_after": "ba5a23897967021d08b6d782825215a9d416870170a910a095088b7f036559d7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110204/label_budget.json",
+      "sha256_before": "ad6876d32ed387af33e40295af0483cf3aa99e89906067ea52f5590ccde7e55c",
+      "bytes": 2085,
+      "sha256_after": "ad6876d32ed387af33e40295af0483cf3aa99e89906067ea52f5590ccde7e55c",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110205/matpv_complete.json",
+      "sha256_before": "2ead27917f0cc7d5a5e8238b09554c41e32124d143b6889af8eb94cfb89fad11",
+      "bytes": 6633,
+      "sha256_after": "2ead27917f0cc7d5a5e8238b09554c41e32124d143b6889af8eb94cfb89fad11",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110205/audit.json",
+      "sha256_before": "62b57eb4307d359a188104910a6e5336cd0b997497967d1d5d0c727ea45de95e",
+      "bytes": 2842,
+      "sha256_after": "62b57eb4307d359a188104910a6e5336cd0b997497967d1d5d0c727ea45de95e",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110205/matpv_predictions.npz",
+      "sha256_before": "43da174f5028ba3875ef740dc7093af992d453522cd339b21dafa87846bcfc70",
+      "bytes": 1130666,
+      "sha256_after": "43da174f5028ba3875ef740dc7093af992d453522cd339b21dafa87846bcfc70",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110205/features.npz",
+      "sha256_before": "249d0a2abd8ac375b066e65197f2e9f8a3ca73576d5f182b6f144d4c15fae586",
+      "bytes": 5777966,
+      "sha256_after": "249d0a2abd8ac375b066e65197f2e9f8a3ca73576d5f182b6f144d4c15fae586",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/inputs/2026110205/oracle_labels.npz",
+      "sha256_before": "108aefc9bc4b51e48f46941e402ef791a8112627074e551c0fb5b188faff8030",
+      "bytes": 44851,
+      "sha256_after": "108aefc9bc4b51e48f46941e402ef791a8112627074e551c0fb5b188faff8030",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110205/results.json",
+      "sha256_before": "868360b9db113ac95166bb5e2b8641d6d9e81b326f211cf56c34e864575b9185",
+      "bytes": 157482,
+      "sha256_after": "868360b9db113ac95166bb5e2b8641d6d9e81b326f211cf56c34e864575b9185",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic_external_comparison_20261102/benchmarks/ciciot2023/outputs/2026110205/label_budget.json",
+      "sha256_before": "409e8064d8d37ef59ebcc1a98bd28844722e7b1b0ccc60752f7fb18e039fb29f",
+      "bytes": 2085,
+      "sha256_after": "409e8064d8d37ef59ebcc1a98bd28844722e7b1b0ccc60752f7fb18e039fb29f",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110301/matpv_complete.json",
+      "sha256_before": "4c4fbfdd31b16a082a31ce49a8c61266660bad4529c89aaa818baa13755b51c0",
+      "bytes": 6641,
+      "sha256_after": "4c4fbfdd31b16a082a31ce49a8c61266660bad4529c89aaa818baa13755b51c0",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110301/audit.json",
+      "sha256_before": "3c8f5e5bd17004cb2aeee46cd5b8c7620e3620fc2ce457f4a7570fd30559bbb9",
+      "bytes": 2824,
+      "sha256_after": "3c8f5e5bd17004cb2aeee46cd5b8c7620e3620fc2ce457f4a7570fd30559bbb9",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110301/matpv_predictions.npz",
+      "sha256_before": "3f2ced857d0e800d25efba36bda736ef78e14f000b2753c886d8f64fdc4a2b5a",
+      "bytes": 415296,
+      "sha256_after": "3f2ced857d0e800d25efba36bda736ef78e14f000b2753c886d8f64fdc4a2b5a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110301/features.npz",
+      "sha256_before": "cba00d148b1f0382909530b3b33b2080407021c49442fa9e229f237a1496ae07",
+      "bytes": 1783334,
+      "sha256_after": "cba00d148b1f0382909530b3b33b2080407021c49442fa9e229f237a1496ae07",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110301/oracle_labels.npz",
+      "sha256_before": "b90e59f408fbc5062310549884247d0cd55405bd801ea0a78e8a6c9d7322296d",
+      "bytes": 9114,
+      "sha256_after": "b90e59f408fbc5062310549884247d0cd55405bd801ea0a78e8a6c9d7322296d",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110301/results.json",
+      "sha256_before": "8600cf5d02cefaaa2f9bd1eb462aeb22f6e68929d022b5d96a27933c47777257",
+      "bytes": 44356,
+      "sha256_after": "8600cf5d02cefaaa2f9bd1eb462aeb22f6e68929d022b5d96a27933c47777257",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110301/label_budget.json",
+      "sha256_before": "e4549f6491594f865737a284fa6ad212288dd0c3fd8f6fca3d99ca4ff2da9eaf",
+      "bytes": 2083,
+      "sha256_after": "e4549f6491594f865737a284fa6ad212288dd0c3fd8f6fca3d99ca4ff2da9eaf",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110302/matpv_complete.json",
+      "sha256_before": "a1f3b883359e0189a073326afeb1ba3a264442a25adfaf10666a6409d1709d24",
+      "bytes": 6631,
+      "sha256_after": "a1f3b883359e0189a073326afeb1ba3a264442a25adfaf10666a6409d1709d24",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110302/audit.json",
+      "sha256_before": "4f9ed468d0ee268dd1c08f7a76db0e77fb2adddd779991e82ca9bc2c3eff1faa",
+      "bytes": 2824,
+      "sha256_after": "4f9ed468d0ee268dd1c08f7a76db0e77fb2adddd779991e82ca9bc2c3eff1faa",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110302/matpv_predictions.npz",
+      "sha256_before": "70095e0fa47372e6826408ee6a41bcdac90200e3c2d012d88fe3b8d80799cfba",
+      "bytes": 427749,
+      "sha256_after": "70095e0fa47372e6826408ee6a41bcdac90200e3c2d012d88fe3b8d80799cfba",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110302/features.npz",
+      "sha256_before": "12ab675b9506d15e9aecef712dc1779852d369e493752577fa4afd9efed8bd96",
+      "bytes": 1784481,
+      "sha256_after": "12ab675b9506d15e9aecef712dc1779852d369e493752577fa4afd9efed8bd96",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110302/oracle_labels.npz",
+      "sha256_before": "b071dab07d24b99cf8802df759fb4dd8ee8b6af59f1bea71980df084a6979770",
+      "bytes": 9082,
+      "sha256_after": "b071dab07d24b99cf8802df759fb4dd8ee8b6af59f1bea71980df084a6979770",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110302/results.json",
+      "sha256_before": "ee78ae17813a4e2d44a89c8c43efc2218dcbf64aee1073c08d550c26372f84b7",
+      "bytes": 44460,
+      "sha256_after": "ee78ae17813a4e2d44a89c8c43efc2218dcbf64aee1073c08d550c26372f84b7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110302/label_budget.json",
+      "sha256_before": "1dd066b2178182bc85d81e1702b992015918dc2932ab3affacebf78883514ea0",
+      "bytes": 2083,
+      "sha256_after": "1dd066b2178182bc85d81e1702b992015918dc2932ab3affacebf78883514ea0",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110303/matpv_complete.json",
+      "sha256_before": "214578dba716194b820459178e2c43d948e3125e943fb2ddbc236b739ccc2b42",
+      "bytes": 6618,
+      "sha256_after": "214578dba716194b820459178e2c43d948e3125e943fb2ddbc236b739ccc2b42",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110303/audit.json",
+      "sha256_before": "8040dc6ad33ffce400682f15566b3f63b0104c5386e3bef54e7001139040a1e1",
+      "bytes": 2824,
+      "sha256_after": "8040dc6ad33ffce400682f15566b3f63b0104c5386e3bef54e7001139040a1e1",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110303/matpv_predictions.npz",
+      "sha256_before": "514ff407ad0b851e15495354d7fa5949e42efec7d9d808429ba8368e5f54eee6",
+      "bytes": 406384,
+      "sha256_after": "514ff407ad0b851e15495354d7fa5949e42efec7d9d808429ba8368e5f54eee6",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110303/features.npz",
+      "sha256_before": "83338754a10a1db04b8964d83cb7a21208890e2238ad026e5dcc9535ae8878a2",
+      "bytes": 1783974,
+      "sha256_after": "83338754a10a1db04b8964d83cb7a21208890e2238ad026e5dcc9535ae8878a2",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110303/oracle_labels.npz",
+      "sha256_before": "ddc42cc14f123ed0796c56210342e41557a056838fb64602a14f6c23ee6a5f56",
+      "bytes": 9042,
+      "sha256_after": "ddc42cc14f123ed0796c56210342e41557a056838fb64602a14f6c23ee6a5f56",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110303/results.json",
+      "sha256_before": "d6972d0cc10ccce9dde50ba92959758ec6a90d6ce612bef11e2693cc08f0be13",
+      "bytes": 44282,
+      "sha256_after": "d6972d0cc10ccce9dde50ba92959758ec6a90d6ce612bef11e2693cc08f0be13",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110303/label_budget.json",
+      "sha256_before": "08833e5265d8823c0f6fb8e1883591e9993719821e7443decb20c2ccc6dbc467",
+      "bytes": 2083,
+      "sha256_after": "08833e5265d8823c0f6fb8e1883591e9993719821e7443decb20c2ccc6dbc467",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110304/matpv_complete.json",
+      "sha256_before": "00b3f642abc30bbe95f8cc62ce5f6b98f30c4b72ca29325138aee603330129a9",
+      "bytes": 6644,
+      "sha256_after": "00b3f642abc30bbe95f8cc62ce5f6b98f30c4b72ca29325138aee603330129a9",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110304/audit.json",
+      "sha256_before": "3ed765c13cce9832e1ef11f10ac7906a0e28b947b4994283b6bd53daf5708170",
+      "bytes": 2823,
+      "sha256_after": "3ed765c13cce9832e1ef11f10ac7906a0e28b947b4994283b6bd53daf5708170",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110304/matpv_predictions.npz",
+      "sha256_before": "26e72f804352583155231b354162222a8087057c3012c1b754b93d96687d98f0",
+      "bytes": 431981,
+      "sha256_after": "26e72f804352583155231b354162222a8087057c3012c1b754b93d96687d98f0",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110304/features.npz",
+      "sha256_before": "dbe1c0e570a74c5ec2e36ad17f90554c518fb41582c4222a58e41a8eb43597da",
+      "bytes": 1783999,
+      "sha256_after": "dbe1c0e570a74c5ec2e36ad17f90554c518fb41582c4222a58e41a8eb43597da",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110304/oracle_labels.npz",
+      "sha256_before": "4c10b15078ef7a5a9f1402bdec0e7e427ec4c32c1af412ebb0e3ffd987f5a4dc",
+      "bytes": 9049,
+      "sha256_after": "4c10b15078ef7a5a9f1402bdec0e7e427ec4c32c1af412ebb0e3ffd987f5a4dc",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110304/results.json",
+      "sha256_before": "cae60845757fa1f64f77c1740d8171675b6739e9984aee086414acac2c565d9a",
+      "bytes": 44481,
+      "sha256_after": "cae60845757fa1f64f77c1740d8171675b6739e9984aee086414acac2c565d9a",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110304/label_budget.json",
+      "sha256_before": "7f2149a41e11c5644b5d4a84d26a2e89fce7846eb495eb23ecd531e65df903cb",
+      "bytes": 2083,
+      "sha256_after": "7f2149a41e11c5644b5d4a84d26a2e89fce7846eb495eb23ecd531e65df903cb",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110305/matpv_complete.json",
+      "sha256_before": "bd36857ca7b718d596469a097ebb52e76983ca7dfa17314e0ff68550f1ed8640",
+      "bytes": 6650,
+      "sha256_after": "bd36857ca7b718d596469a097ebb52e76983ca7dfa17314e0ff68550f1ed8640",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110305/audit.json",
+      "sha256_before": "4d18222bf71ba90c8faa78244013597f69b9f41c16e53072591f8cfef681cfec",
+      "bytes": 2823,
+      "sha256_after": "4d18222bf71ba90c8faa78244013597f69b9f41c16e53072591f8cfef681cfec",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110305/matpv_predictions.npz",
+      "sha256_before": "f0bc7689fa903ce11de03be0dff5a4960927a261d0c46f2cfe4d168a2ca248a7",
+      "bytes": 425478,
+      "sha256_after": "f0bc7689fa903ce11de03be0dff5a4960927a261d0c46f2cfe4d168a2ca248a7",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110305/features.npz",
+      "sha256_before": "f4e8329a07ea77b4597d1e802fcbcd5e97491b0563f3776a4eed56c7a3e09d67",
+      "bytes": 1783356,
+      "sha256_after": "f4e8329a07ea77b4597d1e802fcbcd5e97491b0563f3776a4eed56c7a3e09d67",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/inputs/2026110305/oracle_labels.npz",
+      "sha256_before": "ef3fae72f058f98810a12ec33ce9ef01c564c1486dead27bfd5938568c1c8cbc",
+      "bytes": 9076,
+      "sha256_after": "ef3fae72f058f98810a12ec33ce9ef01c564c1486dead27bfd5938568c1c8cbc",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110305/results.json",
+      "sha256_before": "7b8957ddba44f5f3502911d0e802e0146e70d7fbe99bcf97755bd485c1afe729",
+      "bytes": 44618,
+      "sha256_after": "7b8957ddba44f5f3502911d0e802e0146e70d7fbe99bcf97755bd485c1afe729",
+      "unchanged": true
+    },
+    {
+      "archive_relative_path": "cic46_pilot_20261103/benchmarks/ciciot2023_46_pilot/outputs/2026110305/label_budget.json",
+      "sha256_before": "f89aa9c85e5c429c24e64f9cf287df20d3ba667bb7f3df3db3b2aa6156dab4ef",
+      "bytes": 2083,
+      "sha256_after": "f89aa9c85e5c429c24e64f9cf287df20d3ba667bb7f3df3db3b2aa6156dab4ef",
+      "unchanged": true
+    }
+  ],
+  "note": "Historical source checks, not a claim that every source archive is redistributed. The portable checker verifies the published prediction records and frozen numerical summaries."
+}

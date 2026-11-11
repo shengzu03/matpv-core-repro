@@ -1,0 +1,4 @@
+﻿dataset,stage,paired_runs,sum_A,sum_F,lambda_equal_run_per_record,break_even_lambda,break_even_exact,status,interpretation
+TON,graph_to_memory,5,218,540,2.487744471565311,2.477064220183486,270/109,strict_improvement_if_lambda_above_break_even,conditional_sequential_change_not_counterfactual_ablation
+TON,memory_to_direct_svm,5,180,117,0.6481603452187643,0.65,13/20,strict_improvement_if_lambda_above_break_even,conditional_sequential_change_not_counterfactual_ablation
+TON,direct_svm_to_verification,5,0,0,,,,always_tied,conditional_sequential_change_not_counterfactual_ablation

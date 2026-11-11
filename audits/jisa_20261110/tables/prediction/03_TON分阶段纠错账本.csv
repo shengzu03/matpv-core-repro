@@ -1,0 +1,16 @@
+﻿dataset,seed,stage,changed,A_wrong_to_correct,B_correct_to_wrong,C_wrong_to_other_wrong,net_correct_count,additional_target_fp,alarm_changes,protected_prediction_changes,target_prediction_losses
+TON,2026103101,graph_to_memory,203,65,44,94,21,138,0,0,0
+TON,2026103101,memory_to_direct_svm,124,75,26,23,49,49,0,0,0
+TON,2026103101,direct_svm_to_verification,0,0,0,0,0,0,0,0,0
+TON,2026103102,graph_to_memory,107,29,18,60,11,78,0,0,0
+TON,2026103102,memory_to_direct_svm,39,22,10,7,12,17,0,0,0
+TON,2026103102,direct_svm_to_verification,0,0,0,0,0,0,0,0,0
+TON,2026103103,graph_to_memory,146,34,42,70,-8,112,0,0,0
+TON,2026103103,memory_to_direct_svm,0,0,0,0,0,0,0,0,0
+TON,2026103103,direct_svm_to_verification,0,0,0,0,0,0,0,0,0
+TON,2026103104,graph_to_memory,201,65,50,86,15,136,0,0,0
+TON,2026103104,memory_to_direct_svm,131,80,26,25,54,51,0,0,0
+TON,2026103104,direct_svm_to_verification,0,0,0,0,0,0,0,0,0
+TON,2026103105,graph_to_memory,101,25,25,51,0,76,0,0,0
+TON,2026103105,memory_to_direct_svm,3,3,0,0,3,0,0,0,0
+TON,2026103105,direct_svm_to_verification,0,0,0,0,0,0,0,0,0

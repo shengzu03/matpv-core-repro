@@ -5,7 +5,11 @@
     "three dataset configs",
     "frozen TON representative index",
     "fifteen paired split ID/group/hash manifests",
-    "historical seven-configuration results"
+    "historical seven-configuration results",
+    "twenty frozen graph-to-final prediction audits",
+    "five TON sequential branch prediction exports",
+    "portable count and hypothetical-cost verification",
+    "bounded closest-literature comparison"
   ],
   "excludes": [
     "raw feature datasets",
@@ -20,5 +24,6 @@
     "bundled Gaussian pure functions",
     "integrity and CLI wrappers"
   ],
-  "training_revalidation_this_release": false
+  "training_revalidation_this_release": false,
+  "version": "0.2.0"
 }

@@ -13,3 +13,6 @@ data/
 *.csv
 !reference/**/main_results.csv
 !reference/**/efficiency_results.csv
+
+# Small archived research-output tables explicitly published with v0.2.0.
+!audits/jisa_20261110/tables/**/*.csv

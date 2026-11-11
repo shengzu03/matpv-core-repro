@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 2026103101,
+    "source_archive": "pairwise_evidence_20261103/outputs/2026103101/predictions.npz",
+    "source_sha256": "88d70b010e9eee06a99213dc51ea74659d9bc87a1b32c1811a94a19948e18637",
+    "published_file": "ton_stages/TON_2026103101.csv.gz",
+    "published_sha256": "40538e7e45b83741d07e5822ad01efa97f150788a5614053349010df62e74dd9",
+    "export": "existing integer labels only; no model calls"
+  },
+  {
+    "seed": 2026103102,
+    "source_archive": "pairwise_evidence_20261103/outputs/2026103102/predictions.npz",
+    "source_sha256": "619f8df31ee0c06bf452ca4dc00608134cab97423390d368391aface5a9e6510",
+    "published_file": "ton_stages/TON_2026103102.csv.gz",
+    "published_sha256": "5ec9ac25493031638aa8e07a06158b1f2320729219887febd3da1d856be9d425",
+    "export": "existing integer labels only; no model calls"
+  },
+  {
+    "seed": 2026103103,
+    "source_archive": "pairwise_evidence_20261103/outputs/2026103103/predictions.npz",
+    "source_sha256": "06e89e49d1eead977135a30366d9b5f5d2a073762688eac31303d778d6eef1da",
+    "published_file": "ton_stages/TON_2026103103.csv.gz",
+    "published_sha256": "bcdc907257f4d777079f17843d3ab8f9cfdced66c70cd74619eab2084e1f5f3b",
+    "export": "existing integer labels only; no model calls"
+  },
+  {
+    "seed": 2026103104,
+    "source_archive": "pairwise_evidence_20261103/outputs/2026103104/predictions.npz",
+    "source_sha256": "16818b6d29a6c9fba9fa119bdce932bc3f7cf593eccf8515877c3543b1db5fb6",
+    "published_file": "ton_stages/TON_2026103104.csv.gz",
+    "published_sha256": "40325110c33ef3f300d041a24dfb0ad0a65e23a97c9bbc9097fedb6a9685fc26",
+    "export": "existing integer labels only; no model calls"
+  },
+  {
+    "seed": 2026103105,
+    "source_archive": "pairwise_evidence_20261103/outputs/2026103105/predictions.npz",
+    "source_sha256": "68d4608cd17322dfc045dcacc6a8c0d5de722425fe874b2da57b4d6877bddbc3",
+    "published_file": "ton_stages/TON_2026103105.csv.gz",
+    "published_sha256": "115e9560bbecab1c00ed2ec3ebe5b165b687bf3a75e46cc04b7828bb305fbd9a",
+    "export": "existing integer labels only; no model calls"
+  }
+]
